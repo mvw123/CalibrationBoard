@@ -372,7 +372,6 @@ UsedLibrary="/Applications/EAGLE-6.5.0/lbr/SparkFun-Eagle-Libraries-master/Spark
 UsedLibrary="/Applications/EAGLE-6.5.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Retired.lbr"
 UsedLibrary="/Applications/EAGLE-6.5.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-RF.lbr"
 UsedLibrary="/Applications/EAGLE-6.5.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Sensors.lbr"
-UsedLibrary="/Applications/EAGLE-6.5.0/lbr/Guvvy_Libs/Hole_1mm.lbr"
 UsedLibrary="/Applications/EAGLE-6.5.0/lbr/Guvvy_Libs/TP_1MM_TH.lbr"
 
 [Win_1]
@@ -382,5 +381,5 @@ State=2
 Number=0
 
 [Desktop]
-Screen="3840 1200"
+Screen="1920 1200"
 Window="Win_1"
