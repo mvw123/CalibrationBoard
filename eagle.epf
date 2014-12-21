@@ -376,7 +376,7 @@ UsedLibrary="/Applications/EAGLE-6.5.0/lbr/Guvvy_Libs/TP_1MM_TH.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="91 22 1302 955"
+Loc="91 23 1302 956"
 State=2
 Number=0
 
