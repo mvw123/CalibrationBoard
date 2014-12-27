@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,17 +39,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -15495,7 +15495,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="TP_1MM_TH">
 <packages>
 <package name="TP_1MM_TH">
-<pad name="P$1" x="0" y="0" drill="0.9" diameter="1.4224" stop="no"/>
+<pad name="P$1" x="0" y="0" drill="0.9" diameter="1.4224"/>
 <circle x="0" y="0" radius="0.7" width="0" layer="30"/>
 </package>
 </packages>
@@ -21309,7 +21309,7 @@ Wickmann</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="switch">
+<library name="Switch_320-938_Corrected">
 <description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
 Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -21344,12 +21344,12 @@ distributor RS Components</description>
 <wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="51" curve="-270"/>
 <wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.1524" layer="51" curve="-233.130102"/>
 <wire x1="-1.6002" y1="1.27" x2="1.6002" y2="1.27" width="0.1524" layer="51"/>
-<pad name="3" x="-2.3876" y="-4.0132" drill="2.0066" shape="octagon"/>
+<pad name="3" x="-2.3876" y="-4.7" drill="2.0066" shape="octagon"/>
 <pad name="2" x="-2.3876" y="0" drill="2.0066" shape="octagon"/>
-<pad name="1" x="-2.3876" y="4.0132" drill="2.0066" shape="octagon"/>
-<pad name="4" x="2.3876" y="4.0132" drill="2.0066" shape="octagon"/>
+<pad name="1" x="-2.3876" y="4.7" drill="2.0066" shape="octagon"/>
+<pad name="4" x="2.3876" y="4.7" drill="2.0066" shape="octagon"/>
 <pad name="5" x="2.3876" y="0" drill="2.0066" shape="octagon"/>
-<pad name="6" x="2.3876" y="-4.0132" drill="2.0066" shape="octagon"/>
+<pad name="6" x="2.3876" y="-4.7" drill="2.0066" shape="octagon"/>
 <text x="-5.08" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-9.525" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -21433,48 +21433,37 @@ distributor RS Components</description>
 </class>
 </classes>
 <parts>
-<part name="LED1" library="P-LCC-2_Shorter" deviceset="LED" device="P-LCC-2" value="GREEN_LED">
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="0.1R">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R0805" value="2k">
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="1R">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="0.1R">
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="100R">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1R">
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="100R">
+<part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="5k">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
+<part name="R13" library="rcl" deviceset="R-EU_" device="R0805" value="100k">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="5k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="100k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="1Meg">
+<part name="R14" library="rcl" deviceset="R-EU_" device="R0805" value="1Meg">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -21484,7 +21473,7 @@ distributor RS Components</description>
 <attribute name="MPN" value="1008LS-393XJLB"/>
 <attribute name="OC_FARNELL" value="2286860"/>
 </part>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="10Meg">
+<part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="10Meg">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -21501,57 +21490,42 @@ distributor RS Components</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="1uF">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="2.2uF">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="1uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="R14" library="rcl" deviceset="R-EU_" device="R0805" value="5R">
+<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="2.2uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="2.2uF">
+<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="1uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="50R">
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="5R">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="5R">
+<part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="2.2uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="10k">
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="50R">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="J3" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="5R">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="J4" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="BAT1" library="SparkFun-Connectors" deviceset="BC9VPC" device="" value="+9V_BATTERY">
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="10k">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -21566,12 +21540,17 @@ distributor RS Components</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="TP6" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<part name="BAT1" library="SparkFun-Connectors" deviceset="BC9VPC" device="" value="+9V_BATTERY">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="TP7" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<part name="J7" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="J8" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -21582,6 +21561,16 @@ distributor RS Components</description>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="TP2" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP3" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP4" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -21603,12 +21592,12 @@ distributor RS Components</description>
 </part>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="2.2uF">
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="2.2uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="1uF">
+<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="1uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -21618,22 +21607,22 @@ distributor RS Components</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="J7" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
+<part name="J3" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="J8" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
+<part name="J9" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="TP9" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<part name="TP5" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="TP10" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<part name="TP7" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -21645,27 +21634,27 @@ distributor RS Components</description>
 </part>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="2.2uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="1uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="2.2uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="1uF">
+<part name="J4" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="2.2uF">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="J9" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP11" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<part name="TP6" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -21676,77 +21665,77 @@ distributor RS Components</description>
 <attribute name="MPN" value="SR16150"/>
 <attribute name="OC_FARNELL" value="1625239"/>
 </part>
-<part name="TP3" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP4" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP5" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP8" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP13" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP14" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP15" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP16" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP17" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP18" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP19" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP20" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP21" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
 <part name="TP22" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
+<part name="TP33" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="TP23" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP26" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP28" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP29" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP31" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP34" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP35" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP36" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP37" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP38" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP39" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP30" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP27" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -21782,11 +21771,6 @@ distributor RS Components</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="TP12" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
 <part name="TP24" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -21797,21 +21781,26 @@ distributor RS Components</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
+<part name="TP32" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="KK2" library="heatsink" deviceset="SK104-PAD" device="">
+<part name="KK1" library="heatsink" deviceset="SK104-PAD" device="">
 <attribute name="MF" value="FISCHER ELEKTRONIK"/>
 <attribute name="MPN" value="SK 129 38,1 STS"/>
 <attribute name="OC_FARNELL" value="1319811"/>
 </part>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
-<part name="D1" library="diode" deviceset="DIODE-2AC|CA" device="TO220V" value="30A_MIN">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="D1" library="diode" deviceset="DIODE-2AC|CA" device="TO220V" value="MBR60H100CTG">
+<attribute name="MF" value="ON SEMICONDUCTOR"/>
+<attribute name="MPN" value="MBR60H100CTG"/>
+<attribute name="OC_FARNELL" value="1431072"/>
 </part>
 <part name="F1" library="fuse" deviceset="FUSE" device="LITTLEFUSE" value="12A">
 <attribute name="MF" value="TE CONNECTIVITY / RAYCHEM"/>
@@ -21823,42 +21812,37 @@ distributor RS Components</description>
 <attribute name="MPN" value="MINISMDC110F/24-2"/>
 <attribute name="OC_FARNELL" value="1345925"/>
 </part>
-<part name="S3" library="switch" deviceset="320-938" device="" value="6A TOGGLE">
-<attribute name="MF" value="APEM"/>
-<attribute name="MPN" value="5646A9"/>
-<attribute name="OC_FARNELL" value="1082315"/>
-</part>
-<part name="TP26" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<part name="TP8" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="TP27" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<part name="TP15" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="TP29" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<part name="TP18" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="TP30" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<part name="TP20" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="TP31" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<part name="TP19" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="TP32" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<part name="TP16" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="TP33" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<part name="TP17" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -21888,73 +21872,12 @@ distributor RS Components</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="C17" library="rcl" deviceset="C-EU" device="C0805" value="100uF">
+<part name="C17" library="rcl" deviceset="C-EU" device="C0805" value="10uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="TP35" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP36" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP37" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP38" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP39" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP42" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="L5" library="rcl" deviceset="L-US" device="6000-XXX-RC" value="10mH"/>
-<part name="TP43" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="L7" library="rcl" deviceset="L-US" device="L1812" value="1uH">
-<attribute name="MF" value="COILCRAFT"/>
-<attribute name="MPN" value="0603AF-102XJRU"/>
-<attribute name="OC_FARNELL" value="2285913RL"/>
-</part>
-<part name="L8" library="rcl" deviceset="L-US" device="L1812" value="100uH">
-<attribute name="MF" value="COILCRAFT"/>
-<attribute name="MPN" value="1812PS-104JLB"/>
-<attribute name="OC_FARNELL" value="2287073"/>
-</part>
-<part name="L9" library="rcl" deviceset="L-US" device="L1812" value="1nH">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="L10" library="rcl" deviceset="L-US" device="L2825P" value="330nH">
-<attribute name="MF" value="BOURNS"/>
-<attribute name="MPN" value="CW252016-R33G"/>
-<attribute name="OC_FARNELL" value="2333647"/>
-</part>
-<part name="TP34" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP44" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<part name="TP45" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -21974,37 +21897,122 @@ distributor RS Components</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="TP28" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="TP45" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
 <part name="TP49" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="C18" library="rcl" deviceset="CPOL-US" device="E5-10.5"/>
+<part name="TP40" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="L5" library="rcl" deviceset="L-US" device="6000-XXX-RC" value="10mH">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP44" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="L3" library="rcl" deviceset="L-US" device="L1812" value="1uH">
+<attribute name="MF" value="COILCRAFT"/>
+<attribute name="MPN" value="0603AF-102XJRU"/>
+<attribute name="OC_FARNELL" value="2285913RL"/>
+</part>
+<part name="L4" library="rcl" deviceset="L-US" device="L1812" value="100uH">
+<attribute name="MF" value="COILCRAFT"/>
+<attribute name="MPN" value="1812PS-104JLB"/>
+<attribute name="OC_FARNELL" value="2287073"/>
+</part>
+<part name="L1" library="rcl" deviceset="L-US" device="L1812" value="1nH">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="L2" library="rcl" deviceset="L-US" device="L2825P" value="330nH">
+<attribute name="MF" value="BOURNS"/>
+<attribute name="MPN" value="CW252016-R33G"/>
+<attribute name="OC_FARNELL" value="2333647"/>
+</part>
+<part name="TP9" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP10" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP11" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP12" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP13" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="TP41" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="TP51" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<part name="TP42" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
+<part name="TP43" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="C18" library="rcl" deviceset="CPOL-US" device="E5-10.5" value="100uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP14" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="TP21" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="S1" library="Switch_320-938_Corrected" deviceset="320-938" device="" value="5649A">
+<attribute name="MF" value="APEM"/>
+<attribute name="MPN" value="5649A"/>
+<attribute name="OC_FARNELL" value="1082316"/>
+</part>
+<part name="LED1" library="P-LCC-2_Shorter" deviceset="LED" device="P-LCC-2" value="GREEN_LED">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="2k">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="81.28" y="149.86" size="1.778" layer="91">0R</text>
+<text x="467.36" y="-12.7" size="1.778" layer="91">0R</text>
 <text x="63.5" y="35.56" size="1.778" layer="91">MAX6126 needs to be a 4.0v or less due to max rating in the OUTF line</text>
 <text x="17.78" y="2.54" size="1.778" layer="91">2.7V to 12.6V</text>
 <text x="60.96" y="27.94" size="1.778" layer="91">ABS MAX RATING: OUTF, OUTS, NR = -0.3V TO THE LESS OF (VIN + 0.3V) OR +6V</text>
@@ -22012,74 +22020,64 @@ distributor RS Components</description>
 <text x="66.04" y="-53.34" size="1.778" layer="91">ABS MAX RATING: OUTF, OUTS, NR = -0.3V TO THE LESS OF (VIN + 0.3V) OR +6V</text>
 <text x="22.86" y="-152.4" size="1.778" layer="91">2.7V to 12.6V</text>
 <text x="66.04" y="-127" size="1.778" layer="91">ABS MAX RATING: OUTF, OUTS, NR = -0.3V TO THE LESS OF (VIN + 0.3V) OR +6V</text>
-<text x="215.9" y="-12.7" size="1.778" layer="91">WATTAGE</text>
+<text x="223.52" y="-15.24" size="1.778" layer="91">&lt;- LOAD</text>
 <text x="223.52" y="27.94" size="1.778" layer="91">&lt;- CURRENT METER</text>
-<text x="-132.08" y="-33.02" size="1.778" layer="91">USE THE 9V BATTERY FOR LOW CURRENT REFERENCES. USE THE EXTERNAL PSU FOR HIGH CURRENT REFERENCES.</text>
-<text x="-55.88" y="53.34" size="5.08" layer="91">SORT OUT THE CAPS AND INDUCTORS, CHECK THE SEPARATION OF THE TEST POINTS FOR THE TWEEZERS</text>
-<text x="81.28" y="-213.36" size="1.778" layer="91">DO NOT CONNECT PINS IC, IC2 TO ANYTHING</text>
-<text x="-7.62" y="15.24" size="1.778" layer="91">REVERSE
+<text x="-144.78" y="-55.88" size="1.778" layer="91">USE THE 9V BATTERY FOR LOW CURRENT REFERENCES. USE THE EXTERNAL PSU FOR HIGH CURRENT REFERENCES.</text>
+<text x="-55.88" y="53.34" size="5.08" layer="91">FIX THE CAPS AND INDUCTORS, CHECK THE SEPARATION OF THE TEST POINTS FOR THE TWEEZERS</text>
+<text x="99.06" y="-208.28" size="1.778" layer="91">NO CONNECT PINS IC, IC2</text>
+<text x="-7.62" y="38.1" size="1.778" layer="91">REVERSE
 VOLTAGE
 PROTECTION</text>
+<text x="-55.88" y="7.62" size="1.778" layer="91">ON/OFF/ON</text>
 </plain>
 <instances>
-<instance part="LED1" gate="G$1" x="35.56" y="-15.24">
-<attribute name="OC_FARNELL" x="35.56" y="-15.24" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="35.56" y="-15.24" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="35.56" y="-15.24" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R4" gate="G$1" x="421.64" y="-25.4">
+<attribute name="OC_FARNELL" x="421.64" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="421.64" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="421.64" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R13" gate="G$1" x="35.56" y="-2.54" rot="R90">
-<attribute name="OC_FARNELL" x="35.56" y="-2.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="35.56" y="-2.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="35.56" y="-2.54" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R5" gate="G$1" x="421.64" y="-35.56">
+<attribute name="OC_FARNELL" x="421.64" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="421.64" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="421.64" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="SUPPLY6" gate="GND" x="35.56" y="-35.56"/>
-<instance part="R1" gate="G$1" x="35.56" y="137.16">
-<attribute name="OC_FARNELL" x="35.56" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="35.56" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="35.56" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R9" gate="G$1" x="421.64" y="-76.2">
+<attribute name="OC_FARNELL" x="421.64" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="421.64" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="421.64" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R3" gate="G$1" x="35.56" y="127">
-<attribute name="OC_FARNELL" x="35.56" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="35.56" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="35.56" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R10" gate="G$1" x="525.78" y="-25.4">
+<attribute name="OC_FARNELL" x="525.78" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="525.78" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="525.78" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R11" gate="G$1" x="35.56" y="86.36">
-<attribute name="OC_FARNELL" x="35.56" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="35.56" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="35.56" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R11" gate="G$1" x="525.78" y="-35.56">
+<attribute name="OC_FARNELL" x="525.78" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="525.78" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="525.78" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R2" gate="G$1" x="139.7" y="137.16">
-<attribute name="OC_FARNELL" x="139.7" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="139.7" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="139.7" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R13" gate="G$1" x="525.78" y="-55.88">
+<attribute name="OC_FARNELL" x="525.78" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="525.78" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="525.78" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R4" gate="G$1" x="139.7" y="127">
-<attribute name="OC_FARNELL" x="139.7" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="139.7" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="139.7" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R14" gate="G$1" x="525.78" y="-66.04">
+<attribute name="OC_FARNELL" x="525.78" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="525.78" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="525.78" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R8" gate="G$1" x="139.7" y="106.68">
-<attribute name="OC_FARNELL" x="139.7" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="139.7" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="139.7" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R7" gate="G$1" x="421.64" y="-55.88">
+<attribute name="OC_FARNELL" x="421.64" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="421.64" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="421.64" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R10" gate="G$1" x="139.7" y="96.52">
-<attribute name="OC_FARNELL" x="139.7" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="139.7" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="139.7" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R15" gate="G$1" x="525.78" y="-76.2">
+<attribute name="OC_FARNELL" x="525.78" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="525.78" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="525.78" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R7" gate="G$1" x="35.56" y="106.68">
-<attribute name="OC_FARNELL" x="35.56" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="35.56" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="35.56" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="R12" gate="G$1" x="139.7" y="86.36">
-<attribute name="OC_FARNELL" x="139.7" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="139.7" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="139.7" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="U1" gate="A" x="106.68" y="10.16">
-<attribute name="MF" x="106.68" y="10.16" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="U1" gate="A" x="111.76" y="10.16">
+<attribute name="MF" x="111.76" y="10.16" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SUPPLY7" gate="GND" x="78.74" y="-25.4"/>
 <instance part="SUPPLY8" gate="GND" x="134.62" y="-33.02"/>
@@ -22088,116 +22086,116 @@ PROTECTION</text>
 <attribute name="MF" x="45.72" y="-5.08" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="45.72" y="-5.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C2" gate="G$1" x="58.42" y="-5.08">
+<instance part="C4" gate="G$1" x="58.42" y="-5.08">
 <attribute name="OC_FARNELL" x="58.42" y="-5.08" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="58.42" y="-5.08" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="58.42" y="-5.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C3" gate="G$1" x="142.24" y="-10.16">
+<instance part="C7" gate="G$1" x="142.24" y="-10.16">
 <attribute name="OC_FARNELL" x="142.24" y="-10.16" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="142.24" y="-10.16" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="142.24" y="-10.16" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C4" gate="G$1" x="154.94" y="-10.16">
+<instance part="C10" gate="G$1" x="154.94" y="-10.16">
 <attribute name="OC_FARNELL" x="154.94" y="-10.16" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="154.94" y="-10.16" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="154.94" y="-10.16" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R14" gate="G$1" x="185.42" y="-10.16" rot="R90">
+<instance part="R3" gate="G$1" x="185.42" y="-10.16" rot="R90">
 <attribute name="OC_FARNELL" x="185.42" y="-10.16" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="185.42" y="-10.16" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="185.42" y="-10.16" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C5" gate="G$1" x="167.64" y="-10.16">
+<instance part="C11" gate="G$1" x="167.64" y="-10.16">
 <attribute name="OC_FARNELL" x="167.64" y="-10.16" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="167.64" y="-10.16" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="167.64" y="-10.16" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R9" gate="G$1" x="35.56" y="96.52">
-<attribute name="OC_FARNELL" x="35.56" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="35.56" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="35.56" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R8" gate="G$1" x="421.64" y="-66.04">
+<attribute name="OC_FARNELL" x="421.64" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="421.64" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="421.64" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R5" gate="G$1" x="35.56" y="116.84">
-<attribute name="OC_FARNELL" x="35.56" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="35.56" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="35.56" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R6" gate="G$1" x="421.64" y="-45.72">
+<attribute name="OC_FARNELL" x="421.64" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="421.64" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="421.64" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R6" gate="G$1" x="139.7" y="116.84">
-<attribute name="OC_FARNELL" x="139.7" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="139.7" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="139.7" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R12" gate="G$1" x="525.78" y="-45.72">
+<attribute name="OC_FARNELL" x="525.78" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="525.78" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="525.78" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="J3" gate="G$1" x="215.9" y="30.48">
+<instance part="J5" gate="G$1" x="215.9" y="30.48">
 <attribute name="OC_FARNELL" x="215.9" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="215.9" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="215.9" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="J4" gate="G$1" x="215.9" y="25.4">
+<instance part="J6" gate="G$1" x="215.9" y="25.4">
 <attribute name="OC_FARNELL" x="215.9" y="25.4" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="215.9" y="25.4" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="215.9" y="25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="BAT1" gate="G$1" x="-78.74" y="2.54">
-<attribute name="OC_FARNELL" x="-78.74" y="2.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-78.74" y="2.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-78.74" y="2.54" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="BAT1" gate="G$1" x="-81.28" y="-22.86">
+<attribute name="OC_FARNELL" x="-81.28" y="-22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="-81.28" y="-22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="-81.28" y="-22.86" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="J5" gate="G$1" x="215.9" y="0">
+<instance part="J7" gate="G$1" x="215.9" y="0">
 <attribute name="OC_FARNELL" x="215.9" y="0" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="215.9" y="0" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="215.9" y="0" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="J6" gate="G$1" x="215.9" y="-27.94">
+<instance part="J8" gate="G$1" x="215.9" y="-27.94">
 <attribute name="OC_FARNELL" x="215.9" y="-27.94" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="215.9" y="-27.94" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="215.9" y="-27.94" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP6" gate="G$1" x="185.42" y="7.62" smashed="yes">
+<instance part="TP1" gate="G$1" x="185.42" y="7.62" smashed="yes">
 <attribute name="NAME" x="187.96" y="10.16" size="1.778" layer="95"/>
 <attribute name="OC_FARNELL" x="185.42" y="7.62" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="185.42" y="7.62" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="185.42" y="7.62" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP7" gate="G$1" x="185.42" y="-22.86" smashed="yes">
+<instance part="TP2" gate="G$1" x="185.42" y="-22.86" smashed="yes">
 <attribute name="NAME" x="187.96" y="-20.32" size="1.778" layer="95"/>
 <attribute name="OC_FARNELL" x="185.42" y="-22.86" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="185.42" y="-22.86" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="185.42" y="-22.86" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP1" gate="G$1" x="187.96" y="30.48" smashed="yes" rot="R90">
+<instance part="TP3" gate="G$1" x="187.96" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="185.42" y="33.02" size="1.778" layer="95" rot="R90"/>
 <attribute name="OC_FARNELL" x="187.96" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="187.96" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="187.96" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP2" gate="G$1" x="187.96" y="25.4" smashed="yes" rot="R90">
+<instance part="TP4" gate="G$1" x="187.96" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="185.42" y="27.94" size="1.778" layer="95" rot="R90"/>
 <attribute name="OC_FARNELL" x="187.96" y="25.4" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="187.96" y="25.4" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="187.96" y="25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="J1" gate="G$1" x="-119.38" y="33.02" rot="R180">
-<attribute name="OC_FARNELL" x="-119.38" y="33.02" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-119.38" y="33.02" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-119.38" y="33.02" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="J1" gate="G$1" x="-124.46" y="33.02" rot="R180">
+<attribute name="OC_FARNELL" x="-124.46" y="33.02" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="-124.46" y="33.02" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="-124.46" y="33.02" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="J2" gate="G$1" x="-119.38" y="-12.7" rot="R180">
-<attribute name="OC_FARNELL" x="-119.38" y="-12.7" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-119.38" y="-12.7" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-119.38" y="-12.7" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="J2" gate="G$1" x="-124.46" y="-38.1" rot="R180">
+<attribute name="OC_FARNELL" x="-124.46" y="-38.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="-124.46" y="-38.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="-124.46" y="-38.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U2" gate="A" x="111.76" y="-71.12">
 <attribute name="MF" x="111.76" y="-71.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SUPPLY11" gate="GND" x="83.82" y="-111.76"/>
 <instance part="SUPPLY12" gate="GND" x="139.7" y="-114.3"/>
-<instance part="C6" gate="G$1" x="50.8" y="-86.36">
+<instance part="C2" gate="G$1" x="50.8" y="-86.36">
 <attribute name="OC_FARNELL" x="50.8" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="50.8" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="50.8" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C7" gate="G$1" x="63.5" y="-86.36">
+<instance part="C5" gate="G$1" x="63.5" y="-86.36">
 <attribute name="OC_FARNELL" x="63.5" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="63.5" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="63.5" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
@@ -22207,23 +22205,23 @@ PROTECTION</text>
 <attribute name="MF" x="147.32" y="-91.44" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="147.32" y="-91.44" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="J7" gate="G$1" x="200.66" y="-66.04">
+<instance part="J3" gate="G$1" x="200.66" y="-66.04">
 <attribute name="OC_FARNELL" x="200.66" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="200.66" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="200.66" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="J8" gate="G$1" x="233.68" y="-60.96">
+<instance part="J9" gate="G$1" x="233.68" y="-60.96">
 <attribute name="OC_FARNELL" x="233.68" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="233.68" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="233.68" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP9" gate="G$1" x="187.96" y="-66.04" smashed="yes" rot="R90">
+<instance part="TP5" gate="G$1" x="187.96" y="-66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="185.42" y="-63.5" size="1.778" layer="95" rot="R90"/>
 <attribute name="OC_FARNELL" x="187.96" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="187.96" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="187.96" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP10" gate="G$1" x="223.52" y="-60.96" smashed="yes" rot="R90">
+<instance part="TP7" gate="G$1" x="223.52" y="-60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="220.98" y="-58.42" size="1.778" layer="95" rot="R90"/>
 <attribute name="OC_FARNELL" x="223.52" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="223.52" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
@@ -22234,27 +22232,27 @@ PROTECTION</text>
 </instance>
 <instance part="SUPPLY13" gate="GND" x="83.82" y="-185.42"/>
 <instance part="SUPPLY14" gate="GND" x="139.7" y="-187.96"/>
-<instance part="C9" gate="G$1" x="50.8" y="-160.02">
+<instance part="C3" gate="G$1" x="50.8" y="-160.02">
 <attribute name="OC_FARNELL" x="50.8" y="-160.02" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="50.8" y="-160.02" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="50.8" y="-160.02" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C10" gate="G$1" x="63.5" y="-160.02">
+<instance part="C6" gate="G$1" x="63.5" y="-160.02">
 <attribute name="OC_FARNELL" x="63.5" y="-160.02" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="63.5" y="-160.02" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="63.5" y="-160.02" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C11" gate="G$1" x="147.32" y="-165.1">
+<instance part="C9" gate="G$1" x="147.32" y="-165.1">
 <attribute name="OC_FARNELL" x="147.32" y="-165.1" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="147.32" y="-165.1" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="147.32" y="-165.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="J9" gate="G$1" x="200.66" y="-139.7">
+<instance part="J4" gate="G$1" x="200.66" y="-139.7">
 <attribute name="OC_FARNELL" x="200.66" y="-139.7" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="200.66" y="-139.7" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="200.66" y="-139.7" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP11" gate="G$1" x="187.96" y="-139.7" smashed="yes" rot="R90">
+<instance part="TP6" gate="G$1" x="187.96" y="-139.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="185.42" y="-137.16" size="1.778" layer="95" rot="R90"/>
 <attribute name="OC_FARNELL" x="187.96" y="-139.7" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="187.96" y="-139.7" size="1.778" layer="96" rot="R90" display="off"/>
@@ -22266,83 +22264,83 @@ PROTECTION</text>
 <attribute name="MF" x="182.88" y="17.78" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="182.88" y="17.78" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP3" gate="G$1" x="-12.7" y="147.32" smashed="yes" rot="MR90">
-<attribute name="NAME" x="-10.16" y="149.86" size="1.778" layer="95" rot="MR90"/>
-<attribute name="OC_FARNELL" x="-12.7" y="147.32" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-12.7" y="147.32" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-12.7" y="147.32" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP22" gate="G$1" x="373.38" y="-15.24" smashed="yes" rot="MR90">
+<attribute name="NAME" x="375.92" y="-12.7" size="1.778" layer="95" rot="MR90"/>
+<attribute name="OC_FARNELL" x="373.38" y="-15.24" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="373.38" y="-15.24" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="373.38" y="-15.24" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP4" gate="G$1" x="177.8" y="147.32" rot="R90">
-<attribute name="OC_FARNELL" x="177.8" y="147.32" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="177.8" y="147.32" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="177.8" y="147.32" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP33" gate="G$1" x="563.88" y="-15.24" rot="R90">
+<attribute name="OC_FARNELL" x="563.88" y="-15.24" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="563.88" y="-15.24" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="563.88" y="-15.24" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP5" gate="G$1" x="-12.7" y="137.16" rot="R90">
-<attribute name="OC_FARNELL" x="-12.7" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-12.7" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-12.7" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP23" gate="G$1" x="373.38" y="-25.4" rot="R90">
+<attribute name="OC_FARNELL" x="373.38" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="373.38" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="373.38" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP8" gate="G$1" x="76.2" y="137.16" rot="R90">
-<attribute name="OC_FARNELL" x="76.2" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="76.2" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="76.2" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP26" gate="G$1" x="462.28" y="-25.4" rot="R90">
+<attribute name="OC_FARNELL" x="462.28" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="462.28" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="462.28" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP13" gate="G$1" x="76.2" y="116.84" rot="R90">
-<attribute name="OC_FARNELL" x="76.2" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="76.2" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="76.2" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP28" gate="G$1" x="462.28" y="-45.72" rot="R90">
+<attribute name="OC_FARNELL" x="462.28" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="462.28" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="462.28" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP14" gate="G$1" x="76.2" y="106.68" rot="R90">
-<attribute name="OC_FARNELL" x="76.2" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="76.2" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="76.2" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP29" gate="G$1" x="462.28" y="-55.88" rot="R90">
+<attribute name="OC_FARNELL" x="462.28" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="462.28" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="462.28" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP15" gate="G$1" x="76.2" y="86.36" rot="R90">
-<attribute name="OC_FARNELL" x="76.2" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="76.2" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="76.2" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP31" gate="G$1" x="462.28" y="-76.2" rot="R90">
+<attribute name="OC_FARNELL" x="462.28" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="462.28" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="462.28" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP16" gate="G$1" x="180.34" y="137.16" rot="R90">
-<attribute name="OC_FARNELL" x="180.34" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="180.34" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="180.34" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP34" gate="G$1" x="566.42" y="-25.4" rot="R90">
+<attribute name="OC_FARNELL" x="566.42" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="566.42" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="566.42" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP17" gate="G$1" x="180.34" y="127" rot="R90">
-<attribute name="OC_FARNELL" x="180.34" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="180.34" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="180.34" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP35" gate="G$1" x="566.42" y="-35.56" rot="R90">
+<attribute name="OC_FARNELL" x="566.42" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="566.42" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="566.42" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP18" gate="G$1" x="180.34" y="116.84" rot="R90">
-<attribute name="OC_FARNELL" x="180.34" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="180.34" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="180.34" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP36" gate="G$1" x="566.42" y="-45.72" rot="R90">
+<attribute name="OC_FARNELL" x="566.42" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="566.42" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="566.42" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP19" gate="G$1" x="180.34" y="106.68" rot="R90">
-<attribute name="OC_FARNELL" x="180.34" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="180.34" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="180.34" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP37" gate="G$1" x="566.42" y="-55.88" rot="R90">
+<attribute name="OC_FARNELL" x="566.42" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="566.42" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="566.42" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP20" gate="G$1" x="180.34" y="96.52" rot="R90">
-<attribute name="OC_FARNELL" x="180.34" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="180.34" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="180.34" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP38" gate="G$1" x="566.42" y="-66.04" rot="R90">
+<attribute name="OC_FARNELL" x="566.42" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="566.42" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="566.42" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP21" gate="G$1" x="180.34" y="86.36" rot="R90">
-<attribute name="OC_FARNELL" x="180.34" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="180.34" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="180.34" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP39" gate="G$1" x="566.42" y="-76.2" rot="R90">
+<attribute name="OC_FARNELL" x="566.42" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="566.42" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="566.42" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP22" gate="G$1" x="76.2" y="96.52" rot="R90">
-<attribute name="OC_FARNELL" x="76.2" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="76.2" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="76.2" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP30" gate="G$1" x="462.28" y="-66.04" rot="R90">
+<attribute name="OC_FARNELL" x="462.28" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="462.28" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="462.28" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP23" gate="G$1" x="76.2" y="127" rot="R90">
-<attribute name="OC_FARNELL" x="76.2" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="76.2" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="76.2" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP27" gate="G$1" x="462.28" y="-35.56" rot="R90">
+<attribute name="OC_FARNELL" x="462.28" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="462.28" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="462.28" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="SUPPLY2" gate="GND" x="-78.74" y="-20.32"/>
+<instance part="SUPPLY2" gate="GND" x="-81.28" y="-45.72"/>
 <instance part="PAD1" gate="1" x="233.68" y="-78.74" rot="R180">
 <attribute name="OC_FARNELL" x="233.68" y="-78.74" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="233.68" y="-78.74" size="1.778" layer="96" rot="R90" display="off"/>
@@ -22373,27 +22371,27 @@ PROTECTION</text>
 <attribute name="MF" x="233.68" y="-116.84" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="233.68" y="-116.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP12" gate="G$1" x="66.04" y="116.84" rot="R90">
-<attribute name="OC_FARNELL" x="66.04" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="66.04" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="66.04" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP24" gate="G$1" x="452.12" y="-45.72" rot="R90">
+<attribute name="OC_FARNELL" x="452.12" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="452.12" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="452.12" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP24" gate="G$1" x="66.04" y="86.36" rot="R90">
-<attribute name="OC_FARNELL" x="66.04" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="66.04" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="66.04" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP25" gate="G$1" x="452.12" y="-76.2" rot="R90">
+<attribute name="OC_FARNELL" x="452.12" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="452.12" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="452.12" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP25" gate="G$1" x="170.18" y="116.84" rot="R90">
-<attribute name="OC_FARNELL" x="170.18" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="170.18" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="170.18" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP32" gate="G$1" x="556.26" y="-45.72" rot="R90">
+<attribute name="OC_FARNELL" x="556.26" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="556.26" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="556.26" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="106.68" y="68.58">
 <attribute name="OC_FARNELL" x="106.68" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="106.68" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="106.68" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="KK2" gate="G$1" x="205.74" y="15.24">
+<instance part="KK1" gate="G$1" x="205.74" y="15.24">
 <attribute name="OC_FARNELL" x="205.74" y="15.24" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="205.74" y="15.24" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="205.74" y="15.24" size="1.778" layer="96" rot="R90" display="off"/>
@@ -22405,205 +22403,219 @@ PROTECTION</text>
 <attribute name="MPN" x="0" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="F1" gate="G$1" x="-101.6" y="33.02"/>
-<instance part="F2" gate="G$1" x="-76.2" y="20.32" rot="R90">
-<attribute name="OC_FARNELL" x="-76.2" y="20.32" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-76.2" y="20.32" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-76.2" y="20.32" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="F2" gate="G$1" x="-78.74" y="-5.08" rot="R90">
+<attribute name="OC_FARNELL" x="-78.74" y="-5.08" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="-78.74" y="-5.08" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="-78.74" y="-5.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="S3" gate="B" x="-40.64" y="30.48" rot="R270">
-<attribute name="OC_FARNELL" x="-40.64" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-40.64" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-40.64" y="30.48" size="1.778" layer="96" display="off"/>
+<instance part="TP8" gate="G$1" x="269.24" y="-25.4" rot="R90">
+<attribute name="OC_FARNELL" x="269.24" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="269.24" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="269.24" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="S3" gate="1" x="-40.64" y="40.64" rot="R270"/>
-<instance part="TP26" gate="G$1" x="-116.84" y="137.16" rot="R90">
-<attribute name="OC_FARNELL" x="-116.84" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-116.84" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-116.84" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP15" gate="G$1" x="358.14" y="-25.4" rot="R90">
+<attribute name="OC_FARNELL" x="358.14" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="358.14" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="358.14" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP27" gate="G$1" x="-27.94" y="137.16" rot="R90">
-<attribute name="OC_FARNELL" x="-27.94" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-27.94" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-27.94" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP18" gate="G$1" x="358.14" y="-55.88" rot="R90">
+<attribute name="OC_FARNELL" x="358.14" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="358.14" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="358.14" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP29" gate="G$1" x="-27.94" y="106.68" rot="R90">
-<attribute name="OC_FARNELL" x="-27.94" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-27.94" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-27.94" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP20" gate="G$1" x="358.14" y="-76.2" rot="R90">
+<attribute name="OC_FARNELL" x="358.14" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="358.14" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="358.14" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP30" gate="G$1" x="-27.94" y="86.36" rot="R90">
-<attribute name="OC_FARNELL" x="-27.94" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-27.94" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-27.94" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP19" gate="G$1" x="358.14" y="-66.04" rot="R90">
+<attribute name="OC_FARNELL" x="358.14" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="358.14" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="358.14" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP31" gate="G$1" x="-27.94" y="96.52" rot="R90">
-<attribute name="OC_FARNELL" x="-27.94" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-27.94" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-27.94" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP16" gate="G$1" x="358.14" y="-35.56" rot="R90">
+<attribute name="OC_FARNELL" x="358.14" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="358.14" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="358.14" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP32" gate="G$1" x="-27.94" y="127" rot="R90">
-<attribute name="OC_FARNELL" x="-27.94" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-27.94" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-27.94" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP17" gate="G$1" x="358.14" y="-45.72" rot="R90">
+<attribute name="OC_FARNELL" x="358.14" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="358.14" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="358.14" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP33" gate="G$1" x="-27.94" y="116.84" rot="R90">
-<attribute name="OC_FARNELL" x="-27.94" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-27.94" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-27.94" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="C12" gate="G$1" x="314.96" y="-25.4" rot="R90">
+<attribute name="OC_FARNELL" x="314.96" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="314.96" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="314.96" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C12" gate="G$1" x="-71.12" y="137.16" rot="R90">
-<attribute name="OC_FARNELL" x="-71.12" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-71.12" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-71.12" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="C13" gate="G$1" x="314.96" y="-35.56" rot="R90">
+<attribute name="OC_FARNELL" x="314.96" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="314.96" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="314.96" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C13" gate="G$1" x="-71.12" y="127" rot="R90">
-<attribute name="OC_FARNELL" x="-71.12" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-71.12" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-71.12" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="C14" gate="G$1" x="314.96" y="-45.72" rot="R90">
+<attribute name="OC_FARNELL" x="314.96" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="314.96" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="314.96" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C14" gate="G$1" x="-71.12" y="116.84" rot="R90">
-<attribute name="OC_FARNELL" x="-71.12" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-71.12" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-71.12" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="C15" gate="G$1" x="314.96" y="-55.88" rot="R90">
+<attribute name="OC_FARNELL" x="314.96" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="314.96" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="314.96" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C15" gate="G$1" x="-71.12" y="106.68" rot="R90">
-<attribute name="OC_FARNELL" x="-71.12" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-71.12" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-71.12" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="C16" gate="G$1" x="314.96" y="-66.04" rot="R90">
+<attribute name="OC_FARNELL" x="314.96" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="314.96" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="314.96" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C16" gate="G$1" x="-71.12" y="96.52" rot="R90">
-<attribute name="OC_FARNELL" x="-71.12" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-71.12" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-71.12" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="C17" gate="G$1" x="314.96" y="-76.2" rot="R90">
+<attribute name="OC_FARNELL" x="314.96" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="314.96" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="314.96" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C17" gate="G$1" x="-71.12" y="86.36" rot="R90">
-<attribute name="OC_FARNELL" x="-71.12" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-71.12" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-71.12" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP45" gate="G$1" x="675.64" y="-25.4" rot="R90">
+<attribute name="OC_FARNELL" x="675.64" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="675.64" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="675.64" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP35" gate="G$1" x="289.56" y="137.16" rot="R90">
-<attribute name="OC_FARNELL" x="289.56" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="289.56" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="289.56" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP46" gate="G$1" x="675.64" y="-35.56" rot="R90">
+<attribute name="OC_FARNELL" x="675.64" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="675.64" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="675.64" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP36" gate="G$1" x="289.56" y="127" rot="R90">
-<attribute name="OC_FARNELL" x="289.56" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="289.56" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="289.56" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP47" gate="G$1" x="675.64" y="-45.72" rot="R90">
+<attribute name="OC_FARNELL" x="675.64" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="675.64" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="675.64" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP37" gate="G$1" x="289.56" y="116.84" rot="R90">
-<attribute name="OC_FARNELL" x="289.56" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="289.56" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="289.56" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP48" gate="G$1" x="675.64" y="-55.88" rot="R90">
+<attribute name="OC_FARNELL" x="675.64" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="675.64" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="675.64" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP38" gate="G$1" x="289.56" y="106.68" rot="R90">
-<attribute name="OC_FARNELL" x="289.56" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="289.56" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="289.56" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP49" gate="G$1" x="675.64" y="-66.04" rot="R90">
+<attribute name="OC_FARNELL" x="675.64" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="675.64" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="675.64" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP39" gate="G$1" x="289.56" y="96.52" rot="R90">
-<attribute name="OC_FARNELL" x="289.56" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="289.56" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="289.56" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP40" gate="G$1" x="586.74" y="-25.4" rot="R90">
+<attribute name="OC_FARNELL" x="586.74" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="586.74" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="586.74" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP42" gate="G$1" x="200.66" y="137.16" rot="R90">
-<attribute name="OC_FARNELL" x="200.66" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="200.66" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="200.66" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="L5" gate="G$1" x="637.54" y="-66.04" rot="R90">
+<attribute name="OC_FARNELL" x="637.54" y="-66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="637.54" y="-66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="637.54" y="-66.04" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="L5" gate="G$1" x="251.46" y="96.52" rot="R90"/>
-<instance part="TP43" gate="G$1" x="200.66" y="96.52" rot="R90">
-<attribute name="OC_FARNELL" x="200.66" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="200.66" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="200.66" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP44" gate="G$1" x="586.74" y="-66.04" rot="R90">
+<attribute name="OC_FARNELL" x="586.74" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="586.74" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="586.74" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="L7" gate="G$1" x="251.46" y="116.84" rot="R90">
-<attribute name="OC_FARNELL" x="251.46" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="251.46" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="251.46" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="L3" gate="G$1" x="637.54" y="-45.72" rot="R90">
+<attribute name="OC_FARNELL" x="637.54" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="637.54" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="637.54" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="L8" gate="G$1" x="251.46" y="106.68" rot="R90">
-<attribute name="OC_FARNELL" x="251.46" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="251.46" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="251.46" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="L4" gate="G$1" x="637.54" y="-55.88" rot="R90">
+<attribute name="OC_FARNELL" x="637.54" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="637.54" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="637.54" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="L9" gate="G$1" x="251.46" y="137.16" rot="R90">
-<attribute name="OC_FARNELL" x="251.46" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="251.46" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="251.46" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="L1" gate="G$1" x="637.54" y="-25.4" rot="R90">
+<attribute name="OC_FARNELL" x="637.54" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="637.54" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="637.54" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="L10" gate="G$1" x="251.46" y="127" rot="R90">
-<attribute name="OC_FARNELL" x="251.46" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="251.46" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="251.46" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="L2" gate="G$1" x="637.54" y="-35.56" rot="R90">
+<attribute name="OC_FARNELL" x="637.54" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="637.54" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="637.54" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP34" gate="G$1" x="-116.84" y="127" rot="R90">
-<attribute name="OC_FARNELL" x="-116.84" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-116.84" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-116.84" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP9" gate="G$1" x="269.24" y="-35.56" rot="R90">
+<attribute name="OC_FARNELL" x="269.24" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="269.24" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="269.24" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP44" gate="G$1" x="-116.84" y="116.84" rot="R90">
-<attribute name="OC_FARNELL" x="-116.84" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-116.84" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-116.84" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP10" gate="G$1" x="269.24" y="-45.72" rot="R90">
+<attribute name="OC_FARNELL" x="269.24" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="269.24" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="269.24" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP46" gate="G$1" x="-116.84" y="106.68" rot="R90">
-<attribute name="OC_FARNELL" x="-116.84" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-116.84" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-116.84" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP11" gate="G$1" x="269.24" y="-55.88" rot="R90">
+<attribute name="OC_FARNELL" x="269.24" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="269.24" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="269.24" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP47" gate="G$1" x="-116.84" y="96.52" rot="R90">
-<attribute name="OC_FARNELL" x="-116.84" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-116.84" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-116.84" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP12" gate="G$1" x="269.24" y="-66.04" rot="R90">
+<attribute name="OC_FARNELL" x="269.24" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="269.24" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="269.24" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP48" gate="G$1" x="-116.84" y="86.36" rot="R90">
-<attribute name="OC_FARNELL" x="-116.84" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-116.84" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-116.84" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP13" gate="G$1" x="269.24" y="-76.2" rot="R90">
+<attribute name="OC_FARNELL" x="269.24" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="269.24" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="269.24" y="-76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP28" gate="G$1" x="200.66" y="127" rot="R90">
-<attribute name="OC_FARNELL" x="200.66" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="200.66" y="127" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="200.66" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP41" gate="G$1" x="586.74" y="-35.56" rot="R90">
+<attribute name="OC_FARNELL" x="586.74" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="586.74" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="586.74" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP45" gate="G$1" x="200.66" y="116.84" rot="R90">
-<attribute name="OC_FARNELL" x="200.66" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="200.66" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="200.66" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP42" gate="G$1" x="586.74" y="-45.72" rot="R90">
+<attribute name="OC_FARNELL" x="586.74" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="586.74" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="586.74" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP49" gate="G$1" x="200.66" y="106.68" rot="R90">
-<attribute name="OC_FARNELL" x="200.66" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="200.66" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="200.66" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP43" gate="G$1" x="586.74" y="-55.88" rot="R90">
+<attribute name="OC_FARNELL" x="586.74" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="586.74" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="586.74" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C18" gate="G$1" x="-71.12" y="76.2" rot="R90"/>
-<instance part="TP41" gate="G$1" x="-116.84" y="76.2" rot="R90">
-<attribute name="OC_FARNELL" x="-116.84" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-116.84" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-116.84" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="C18" gate="G$1" x="314.96" y="-86.36" rot="R90">
+<attribute name="OC_FARNELL" x="314.96" y="-86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="314.96" y="-86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="314.96" y="-86.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="TP51" gate="G$1" x="-27.94" y="76.2" rot="R90">
-<attribute name="OC_FARNELL" x="-27.94" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-27.94" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-27.94" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP14" gate="G$1" x="269.24" y="-86.36" rot="R90">
+<attribute name="OC_FARNELL" x="269.24" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="269.24" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="269.24" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="TP21" gate="G$1" x="358.14" y="-86.36" rot="R90">
+<attribute name="OC_FARNELL" x="358.14" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="358.14" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="358.14" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="S1" gate="B" x="-48.26" y="30.48" rot="R90">
+<attribute name="OC_FARNELL" x="-48.26" y="30.48" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MF" x="-48.26" y="30.48" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="-48.26" y="30.48" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="S1" gate="1" x="-48.26" y="20.32" rot="R90"/>
+<instance part="LED1" gate="G$1" x="-20.32" y="-12.7">
+<attribute name="OC_FARNELL" x="-20.32" y="-12.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="-20.32" y="-12.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="-20.32" y="-12.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R1" gate="G$1" x="-20.32" y="0" rot="R90">
+<attribute name="OC_FARNELL" x="-20.32" y="0" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="-20.32" y="0" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="-20.32" y="0" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="SUPPLY4" gate="GND" x="-20.32" y="-33.02"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="35.56" y1="-20.32" x2="35.56" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="SUPPLY6" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="U1" gate="A" pin="GND"/>
-<wire x1="88.9" y1="-5.08" x2="78.74" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="-5.08" x2="78.74" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-5.08" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="-17.78" x2="78.74" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-10.16" x2="58.42" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-17.78" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
@@ -22616,30 +22628,30 @@ PROTECTION</text>
 <segment>
 <pinref part="U1" gate="A" pin="GNDS"/>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
-<wire x1="124.46" y1="-5.08" x2="134.62" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="-5.08" x2="134.62" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-5.08" x2="134.62" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="-27.94" x2="134.62" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="-15.24" x2="154.94" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="-27.94" x2="142.24" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="134.62" y="-27.94"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="-27.94" x2="134.62" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-15.24" x2="142.24" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="142.24" y="-27.94"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="-15.24" x2="185.42" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="-22.86" x2="185.42" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="-27.94" x2="167.64" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="154.94" y="-27.94"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="-27.94" x2="154.94" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="-15.24" x2="167.64" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="167.64" y="-27.94"/>
-<pinref part="J6" gate="G$1" pin="1"/>
+<pinref part="J8" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="-27.94" x2="213.36" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="185.42" y="-27.94"/>
-<pinref part="TP7" gate="G$1" pin="1"/>
+<pinref part="TP2" gate="G$1" pin="1"/>
 <junction x="185.42" y="-22.86"/>
 <label x="195.58" y="-27.94" size="1.778" layer="95"/>
 </segment>
@@ -22648,12 +22660,12 @@ PROTECTION</text>
 <wire x1="93.98" y1="-86.36" x2="83.82" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-86.36" x2="83.82" y2="-99.06" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="-99.06" x2="83.82" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-91.44" x2="63.5" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-99.06" x2="83.82" y2="-99.06" width="0.1524" layer="91"/>
 <junction x="83.82" y="-99.06"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="-99.06" x2="50.8" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-99.06" x2="50.8" y2="-91.44" width="0.1524" layer="91"/>
 <junction x="63.5" y="-99.06"/>
@@ -22674,12 +22686,12 @@ PROTECTION</text>
 <wire x1="93.98" y1="-160.02" x2="83.82" y2="-160.02" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-160.02" x2="83.82" y2="-172.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="-172.72" x2="83.82" y2="-182.88" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-165.1" x2="63.5" y2="-172.72" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-172.72" x2="83.82" y2="-172.72" width="0.1524" layer="91"/>
 <junction x="83.82" y="-172.72"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="-172.72" x2="50.8" y2="-172.72" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-172.72" x2="50.8" y2="-165.1" width="0.1524" layer="91"/>
 <junction x="63.5" y="-172.72"/>
@@ -22691,22 +22703,22 @@ PROTECTION</text>
 <wire x1="139.7" y1="-160.02" x2="139.7" y2="-182.88" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-182.88" x2="139.7" y2="-185.42" width="0.1524" layer="91"/>
 <junction x="139.7" y="-182.88"/>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="-182.88" x2="139.7" y2="-182.88" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="-170.18" x2="147.32" y2="-182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-78.74" y1="-7.62" x2="-78.74" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="-33.02" x2="-81.28" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="BAT1" gate="G$1" pin="V-"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="-78.74" y1="-12.7" x2="-78.74" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="-12.7" x2="-116.84" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="-78.74" y="-12.7"/>
+<wire x1="-81.28" y1="-38.1" x2="-81.28" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="-38.1" x2="-121.92" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="-81.28" y="-38.1"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<label x="-111.76" y="-12.7" size="1.778" layer="95"/>
+<label x="-114.3" y="-38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="G$1" pin="1"/>
+<pinref part="J9" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="-60.96" x2="223.52" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="PAD1" gate="1" pin="P"/>
 <wire x1="223.52" y1="-60.96" x2="215.9" y2="-60.96" width="0.1524" layer="91"/>
@@ -22735,164 +22747,162 @@ PROTECTION</text>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <wire x1="215.9" y1="-127" x2="215.9" y2="-116.84" width="0.1524" layer="91"/>
 <junction x="215.9" y="-116.84"/>
-<pinref part="TP10" gate="G$1" pin="1"/>
+<pinref part="TP7" gate="G$1" pin="1"/>
 <junction x="223.52" y="-60.96"/>
 </segment>
 <segment>
-<pinref part="KK2" gate="G$1" pin="K@1"/>
+<pinref part="KK1" gate="G$1" pin="K@1"/>
 <wire x1="200.66" y1="12.7" x2="200.66" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="KK2" gate="G$1" pin="K@2"/>
+<pinref part="KK1" gate="G$1" pin="K@2"/>
 <wire x1="200.66" y1="7.62" x2="205.74" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="7.62" x2="210.82" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="7.62" x2="210.82" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <junction x="205.74" y="7.62"/>
 </segment>
-</net>
-<net name="N$4" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="-12.7" x2="35.56" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<wire x1="-20.32" y1="-17.78" x2="-20.32" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY4" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="137.16" x2="-12.7" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="TP5" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="416.56" y1="-25.4" x2="373.38" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="TP23" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="86.36" x2="-12.7" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="96.52" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="91.44" x2="-12.7" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="96.52" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="86.36" x2="-12.7" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="TP22" gate="G$1" pin="1"/>
-<junction x="76.2" y="96.52"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="416.56" y1="-76.2" x2="373.38" y2="-76.2" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="426.72" y1="-66.04" x2="462.28" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="-71.12" x2="373.38" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="-66.04" x2="462.28" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="-76.2" x2="373.38" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="TP30" gate="G$1" pin="1"/>
+<junction x="462.28" y="-66.04"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="137.16" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="137.16" x2="76.2" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="132.08" x2="-12.7" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="127" x2="-12.7" y2="127" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="132.08" x2="-12.7" y2="127" width="0.1524" layer="91"/>
-<pinref part="TP8" gate="G$1" pin="1"/>
-<junction x="76.2" y="137.16"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="426.72" y1="-25.4" x2="462.28" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="-25.4" x2="462.28" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="-30.48" x2="373.38" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="416.56" y1="-35.56" x2="373.38" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="-30.48" x2="373.38" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="TP26" gate="G$1" pin="1"/>
+<junction x="462.28" y="-25.4"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="86.36" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="86.36" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="86.36" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="137.16" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="TP15" gate="G$1" pin="1"/>
-<junction x="76.2" y="86.36"/>
-<pinref part="TP24" gate="G$1" pin="1"/>
-<junction x="66.04" y="86.36"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="426.72" y1="-76.2" x2="452.12" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="452.12" y1="-76.2" x2="462.28" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="-76.2" x2="469.9" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="469.9" y1="-76.2" x2="469.9" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="520.7" y1="-25.4" x2="469.9" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="TP31" gate="G$1" pin="1"/>
+<junction x="462.28" y="-76.2"/>
+<pinref part="TP25" gate="G$1" pin="1"/>
+<junction x="452.12" y="-76.2"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="137.16" x2="180.34" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="137.16" x2="180.34" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="127" x2="91.44" y2="127" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="132.08" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="132.08" x2="91.44" y2="127" width="0.1524" layer="91"/>
-<pinref part="TP16" gate="G$1" pin="1"/>
-<junction x="180.34" y="137.16"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="530.86" y1="-25.4" x2="566.42" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="-25.4" x2="566.42" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="520.7" y1="-35.56" x2="477.52" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="-30.48" x2="477.52" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="477.52" y1="-30.48" x2="477.52" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="TP34" gate="G$1" pin="1"/>
+<junction x="566.42" y="-25.4"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="127" x2="180.34" y2="127" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="127" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="116.84" x2="91.44" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="121.92" x2="91.44" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="121.92" x2="91.44" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="TP17" gate="G$1" pin="1"/>
-<junction x="180.34" y="127"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="530.86" y1="-35.56" x2="566.42" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="-35.56" x2="566.42" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="520.7" y1="-45.72" x2="477.52" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="-40.64" x2="477.52" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="477.52" y1="-40.64" x2="477.52" y2="-45.72" width="0.1524" layer="91"/>
+<pinref part="TP35" gate="G$1" pin="1"/>
+<junction x="566.42" y="-35.56"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="106.68" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="106.68" x2="180.34" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="96.52" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="101.6" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="101.6" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="TP19" gate="G$1" pin="1"/>
-<junction x="180.34" y="106.68"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="530.86" y1="-55.88" x2="566.42" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="-55.88" x2="566.42" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="520.7" y1="-66.04" x2="477.52" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="-60.96" x2="477.52" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="477.52" y1="-60.96" x2="477.52" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="TP37" gate="G$1" pin="1"/>
+<junction x="566.42" y="-55.88"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<wire x1="30.48" y1="106.68" x2="-12.7" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="416.56" y1="-55.88" x2="373.38" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="116.84" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="116.84" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="111.76" x2="-12.7" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="116.84" x2="76.2" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="106.68" x2="-12.7" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="TP13" gate="G$1" pin="1"/>
-<junction x="76.2" y="116.84"/>
-<pinref part="TP12" gate="G$1" pin="1"/>
-<junction x="66.04" y="116.84"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="426.72" y1="-45.72" x2="452.12" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="452.12" y1="-45.72" x2="462.28" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="-50.8" x2="373.38" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="-45.72" x2="462.28" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="-55.88" x2="373.38" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="TP28" gate="G$1" pin="1"/>
+<junction x="462.28" y="-45.72"/>
+<pinref part="TP24" gate="G$1" pin="1"/>
+<junction x="452.12" y="-45.72"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="96.52" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="96.52" x2="180.34" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="86.36" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="91.44" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="91.44" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="TP20" gate="G$1" pin="1"/>
-<junction x="180.34" y="96.52"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="530.86" y1="-66.04" x2="566.42" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="-66.04" x2="566.42" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="520.7" y1="-76.2" x2="477.52" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="-71.12" x2="477.52" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="477.52" y1="-71.12" x2="477.52" y2="-76.2" width="0.1524" layer="91"/>
+<pinref part="TP38" gate="G$1" pin="1"/>
+<junction x="566.42" y="-66.04"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<wire x1="-12.7" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="TP3" gate="G$1" pin="1"/>
-<pinref part="TP4" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="147.32" x2="180.34" y2="147.32" width="0.1524" layer="91"/>
-<junction x="177.8" y="147.32"/>
+<wire x1="373.38" y1="-15.24" x2="563.88" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="TP22" gate="G$1" pin="1"/>
+<pinref part="TP33" gate="G$1" pin="1"/>
+<wire x1="563.88" y1="-15.24" x2="566.42" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="563.88" y="-15.24"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="86.36" x2="180.34" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="TP21" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="530.86" y1="-76.2" x2="566.42" y2="-76.2" width="0.1524" layer="91"/>
+<pinref part="TP39" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="OUTF" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="OUTF"/>
-<wire x1="124.46" y1="15.24" x2="142.24" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="15.24" x2="142.24" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="15.24" x2="180.34" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-7.62" x2="142.24" y2="15.24" width="0.1524" layer="91"/>
 <junction x="142.24" y="15.24"/>
@@ -22903,21 +22913,21 @@ PROTECTION</text>
 <net name="OUTS" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="OUTS"/>
-<wire x1="124.46" y1="2.54" x2="154.94" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="2.54" x2="154.94" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="2.54" x2="185.42" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="-7.62" x2="154.94" y2="2.54" width="0.1524" layer="91"/>
 <junction x="154.94" y="2.54"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="-5.08" x2="185.42" y2="0" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="0" x2="185.42" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="12.7" x2="185.42" y2="7.62" width="0.1524" layer="91"/>
 <junction x="185.42" y="2.54"/>
-<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="J7" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="7.62" x2="185.42" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="0" x2="185.42" y2="0" width="0.1524" layer="91"/>
 <junction x="185.42" y="0"/>
-<pinref part="TP6" gate="G$1" pin="1"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
 <junction x="185.42" y="7.62"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <label x="147.32" y="2.54" size="1.778" layer="95"/>
@@ -22927,17 +22937,17 @@ PROTECTION</text>
 <net name="N$28" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="NR"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="2.54" x2="58.42" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="2.54" x2="58.42" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="2.54" x2="58.42" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="Q1_DRAIN" class="0">
+<net name="I_METER-" class="0">
 <segment>
 <wire x1="185.42" y1="22.86" x2="185.42" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="J6" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="25.4" x2="187.96" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="TP2" gate="G$1" pin="1"/>
+<pinref part="TP4" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="25.4" x2="213.36" y2="25.4" width="0.1524" layer="91"/>
 <junction x="187.96" y="25.4"/>
 <label x="193.04" y="25.4" size="1.778" layer="95"/>
@@ -22946,50 +22956,50 @@ PROTECTION</text>
 </net>
 <net name="N$29" class="0">
 <segment>
-<wire x1="30.48" y1="96.52" x2="-12.7" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="416.56" y1="-66.04" x2="373.38" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="106.68" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="101.6" x2="-12.7" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="106.68" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="96.52" x2="-12.7" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="TP14" gate="G$1" pin="1"/>
-<junction x="76.2" y="106.68"/>
+<wire x1="426.72" y1="-55.88" x2="462.28" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="-60.96" x2="373.38" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="-55.88" x2="462.28" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="-66.04" x2="373.38" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="TP29" gate="G$1" pin="1"/>
+<junction x="462.28" y="-55.88"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="116.84" x2="-12.7" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="121.92" x2="-12.7" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="116.84" x2="-12.7" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="127" x2="76.2" y2="127" width="0.1524" layer="91"/>
-<pinref part="TP23" gate="G$1" pin="1"/>
-<junction x="76.2" y="127"/>
-<wire x1="76.2" y1="121.92" x2="76.2" y2="127" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="416.56" y1="-45.72" x2="373.38" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="-40.64" x2="373.38" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="-45.72" x2="373.38" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="426.72" y1="-35.56" x2="462.28" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="TP27" gate="G$1" pin="1"/>
+<junction x="462.28" y="-35.56"/>
+<wire x1="462.28" y1="-40.64" x2="462.28" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="116.84" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="116.84" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="106.68" x2="91.44" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="111.76" x2="91.44" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="111.76" x2="91.44" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="TP18" gate="G$1" pin="1"/>
-<junction x="180.34" y="116.84"/>
-<pinref part="TP25" gate="G$1" pin="1"/>
-<junction x="170.18" y="116.84"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="530.86" y1="-45.72" x2="556.26" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="556.26" y1="-45.72" x2="566.42" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="-45.72" x2="566.42" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="520.7" y1="-55.88" x2="477.52" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="-50.8" x2="477.52" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="477.52" y1="-50.8" x2="477.52" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="TP36" gate="G$1" pin="1"/>
+<junction x="566.42" y="-45.72"/>
+<pinref part="TP32" gate="G$1" pin="1"/>
+<junction x="556.26" y="-45.72"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="NR"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="-78.74" x2="63.5" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-78.74" x2="63.5" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
@@ -23005,12 +23015,12 @@ PROTECTION</text>
 <wire x1="147.32" y1="-66.04" x2="187.96" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="-88.9" x2="147.32" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="147.32" y="-66.04"/>
-<pinref part="TP9" gate="G$1" pin="1"/>
+<pinref part="TP5" gate="G$1" pin="1"/>
 <junction x="187.96" y="-66.04"/>
 <wire x1="139.7" y1="-66.04" x2="187.96" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-78.74" x2="139.7" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="139.7" y="-66.04"/>
-<pinref part="J7" gate="G$1" pin="1"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="-66.04" x2="187.96" y2="-66.04" width="0.1524" layer="91"/>
 <label x="157.48" y="-66.04" size="1.778" layer="95"/>
 </segment>
@@ -23018,7 +23028,7 @@ PROTECTION</text>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="NR"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="-152.4" x2="63.5" y2="-152.4" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-152.4" x2="63.5" y2="-157.48" width="0.1524" layer="91"/>
 </segment>
@@ -23029,39 +23039,38 @@ PROTECTION</text>
 <wire x1="129.54" y1="-152.4" x2="139.7" y2="-152.4" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="OUTF"/>
 <wire x1="129.54" y1="-139.7" x2="139.7" y2="-139.7" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="-139.7" x2="147.32" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="-139.7" x2="187.96" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="-162.56" x2="147.32" y2="-139.7" width="0.1524" layer="91"/>
 <junction x="147.32" y="-139.7"/>
-<pinref part="TP11" gate="G$1" pin="1"/>
+<pinref part="TP6" gate="G$1" pin="1"/>
 <junction x="187.96" y="-139.7"/>
 <wire x1="139.7" y1="-139.7" x2="187.96" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-152.4" x2="139.7" y2="-139.7" width="0.1524" layer="91"/>
 <junction x="139.7" y="-139.7"/>
-<pinref part="J9" gate="G$1" pin="1"/>
+<pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="-139.7" x2="187.96" y2="-139.7" width="0.1524" layer="91"/>
 <label x="160.02" y="-139.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="V_IN2" class="0">
+<net name="V_IN_2" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="IN"/>
 <wire x1="93.98" y1="-137.16" x2="50.8" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-137.16" x2="12.7" y2="-137.16" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="-157.48" x2="50.8" y2="-137.16" width="0.1524" layer="91"/>
 <junction x="50.8" y="-137.16"/>
 <pinref part="U2" gate="A" pin="IN"/>
 <wire x1="93.98" y1="-63.5" x2="50.8" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-63.5" x2="12.7" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="-83.82" x2="50.8" y2="-63.5" width="0.1524" layer="91"/>
 <junction x="50.8" y="-63.5"/>
 <pinref part="U1" gate="A" pin="IN"/>
-<wire x1="88.9" y1="17.78" x2="45.72" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="17.78" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="17.78" x2="45.72" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="17.78" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="-2.54" x2="45.72" y2="17.78" width="0.1524" layer="91"/>
@@ -23071,15 +23080,12 @@ PROTECTION</text>
 <wire x1="12.7" y1="-137.16" x2="12.7" y2="-63.5" width="0.1524" layer="91"/>
 <junction x="12.7" y="-63.5"/>
 <label x="17.78" y="30.48" size="1.778" layer="95"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="2.54" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
-<junction x="35.56" y="17.78"/>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="J5" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="30.48" x2="187.96" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="TP1" gate="G$1" pin="1"/>
+<pinref part="TP3" gate="G$1" pin="1"/>
 <junction x="187.96" y="30.48"/>
 <wire x1="187.96" y1="30.48" x2="167.64" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="-7.62" x2="167.64" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="30.48" x2="167.64" y2="30.48" width="0.1524" layer="91"/>
 <junction x="27.94" y="30.48"/>
@@ -23094,221 +23100,241 @@ PROTECTION</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="-116.84" y1="33.02" x2="-106.68" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="33.02" x2="-106.68" y2="33.02" width="0.1524" layer="91"/>
 <label x="-114.3" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VIN_1" class="0">
+<net name="V_IN_A" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="-96.52" y1="33.02" x2="-78.74" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="33.02" x2="-53.34" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="25.4" x2="-78.74" y2="33.02" width="0.1524" layer="91"/>
-<junction x="-78.74" y="33.02"/>
-<label x="-76.2" y="33.02" size="1.778" layer="95"/>
-<pinref part="F2" gate="G$1" pin="2"/>
-<pinref part="S3" gate="1" pin="P"/>
-<wire x1="-45.72" y1="38.1" x2="-53.34" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="38.1" x2="-53.34" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="S3" gate="B" pin="P"/>
-<wire x1="-53.34" y1="33.02" x2="-53.34" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="30.48" x2="-45.72" y2="30.48" width="0.1524" layer="91"/>
-<junction x="-53.34" y="33.02"/>
+<wire x1="-96.52" y1="33.02" x2="-63.5" y2="33.02" width="0.1524" layer="91"/>
+<label x="-78.74" y="33.02" size="1.778" layer="95"/>
+<wire x1="-63.5" y1="25.4" x2="-63.5" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="S1" gate="1" pin="S"/>
+<wire x1="-53.34" y1="25.4" x2="-63.5" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="S1" gate="B" pin="S"/>
+<wire x1="-63.5" y1="33.02" x2="-53.34" y2="33.02" width="0.1524" layer="91"/>
+<junction x="-63.5" y="33.02"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="BAT1" gate="G$1" pin="V+"/>
-<wire x1="-78.74" y1="10.16" x2="-78.74" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="-15.24" x2="-81.28" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="F2" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="D1" gate="-B1" pin="A2"/>
-<wire x1="0" y1="25.4" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="25.4" x2="-5.08" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="D1" gate="-B1" pin="A1"/>
-<wire x1="-5.08" y1="30.48" x2="-5.08" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="35.56" x2="-12.7" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="S3" gate="B" pin="S"/>
-<wire x1="-12.7" y1="30.48" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="S3" gate="1" pin="S"/>
-<wire x1="-35.56" y1="35.56" x2="-12.7" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="30.48" x2="-12.7" y2="30.48" width="0.1524" layer="91"/>
-<junction x="-5.08" y="30.48"/>
-<junction x="-12.7" y="30.48"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<wire x1="-73.66" y1="137.16" x2="-116.84" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="TP26" gate="G$1" pin="1"/>
+<wire x1="312.42" y1="-25.4" x2="269.24" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="TP8" gate="G$1" pin="1"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<wire x1="-66.04" y1="86.36" x2="-27.94" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="TP30" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="-76.2" x2="358.14" y2="-76.2" width="0.1524" layer="91"/>
+<pinref part="TP20" gate="G$1" pin="1"/>
 <pinref part="C17" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<wire x1="243.84" y1="137.16" x2="200.66" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="TP42" gate="G$1" pin="1"/>
-<pinref part="L9" gate="G$1" pin="1"/>
+<wire x1="629.92" y1="-25.4" x2="586.74" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="TP40" gate="G$1" pin="1"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$48" class="0">
 <segment>
-<pinref part="TP27" gate="G$1" pin="1"/>
-<wire x1="-66.04" y1="137.16" x2="-27.94" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="TP15" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="-25.4" x2="358.14" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$49" class="0">
 <segment>
-<pinref part="TP32" gate="G$1" pin="1"/>
-<wire x1="-66.04" y1="127" x2="-27.94" y2="127" width="0.1524" layer="91"/>
+<pinref part="TP16" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="-35.56" x2="358.14" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$50" class="0">
 <segment>
-<pinref part="TP33" gate="G$1" pin="1"/>
-<wire x1="-66.04" y1="116.84" x2="-27.94" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="TP17" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="-45.72" x2="358.14" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$51" class="0">
 <segment>
-<pinref part="TP29" gate="G$1" pin="1"/>
-<wire x1="-66.04" y1="106.68" x2="-27.94" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="TP18" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="-55.88" x2="358.14" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$52" class="0">
 <segment>
-<pinref part="TP31" gate="G$1" pin="1"/>
-<wire x1="-66.04" y1="96.52" x2="-27.94" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="TP19" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="-66.04" x2="358.14" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$53" class="0">
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="-73.66" y1="127" x2="-116.84" y2="127" width="0.1524" layer="91"/>
-<pinref part="TP34" gate="G$1" pin="1"/>
+<wire x1="312.42" y1="-35.56" x2="269.24" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="TP9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$54" class="0">
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="-73.66" y1="116.84" x2="-116.84" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="TP44" gate="G$1" pin="1"/>
+<wire x1="312.42" y1="-45.72" x2="269.24" y2="-45.72" width="0.1524" layer="91"/>
+<pinref part="TP10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$55" class="0">
 <segment>
 <pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="-73.66" y1="106.68" x2="-116.84" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="TP46" gate="G$1" pin="1"/>
+<wire x1="312.42" y1="-55.88" x2="269.24" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="TP11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$56" class="0">
 <segment>
 <pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="-73.66" y1="96.52" x2="-116.84" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="TP47" gate="G$1" pin="1"/>
+<wire x1="312.42" y1="-66.04" x2="269.24" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="TP12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$57" class="0">
 <segment>
-<wire x1="-73.66" y1="86.36" x2="-116.84" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="-76.2" x2="269.24" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="1"/>
-<pinref part="TP48" gate="G$1" pin="1"/>
+<pinref part="TP13" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="TP35" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="137.16" x2="289.56" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="L9" gate="G$1" pin="2"/>
+<pinref part="TP45" gate="G$1" pin="1"/>
+<wire x1="645.16" y1="-25.4" x2="675.64" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="TP36" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="127" x2="289.56" y2="127" width="0.1524" layer="91"/>
-<pinref part="L10" gate="G$1" pin="2"/>
+<pinref part="TP46" gate="G$1" pin="1"/>
+<wire x1="645.16" y1="-35.56" x2="675.64" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="L2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="TP37" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="116.84" x2="289.56" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="L7" gate="G$1" pin="2"/>
+<pinref part="TP47" gate="G$1" pin="1"/>
+<wire x1="645.16" y1="-45.72" x2="675.64" y2="-45.72" width="0.1524" layer="91"/>
+<pinref part="L3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="TP38" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="106.68" x2="289.56" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="L8" gate="G$1" pin="2"/>
+<pinref part="TP48" gate="G$1" pin="1"/>
+<wire x1="645.16" y1="-55.88" x2="675.64" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="L4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="TP39" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="96.52" x2="289.56" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="TP49" gate="G$1" pin="1"/>
+<wire x1="645.16" y1="-66.04" x2="675.64" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="L5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$59" class="0">
 <segment>
 <pinref part="L5" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="96.52" x2="200.66" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="TP43" gate="G$1" pin="1"/>
-<junction x="200.66" y="96.52"/>
+<wire x1="629.92" y1="-66.04" x2="586.74" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="TP44" gate="G$1" pin="1"/>
+<junction x="586.74" y="-66.04"/>
 </segment>
 </net>
 <net name="N$60" class="0">
 <segment>
-<pinref part="L8" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="106.68" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="TP49" gate="G$1" pin="1"/>
+<pinref part="L4" gate="G$1" pin="1"/>
+<wire x1="629.92" y1="-55.88" x2="586.74" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="TP43" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$61" class="0">
 <segment>
-<pinref part="L7" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="TP45" gate="G$1" pin="1"/>
+<pinref part="L3" gate="G$1" pin="1"/>
+<wire x1="629.92" y1="-45.72" x2="586.74" y2="-45.72" width="0.1524" layer="91"/>
+<pinref part="TP42" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$62" class="0">
 <segment>
-<pinref part="L10" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="127" x2="200.66" y2="127" width="0.1524" layer="91"/>
-<pinref part="TP28" gate="G$1" pin="1"/>
+<pinref part="L2" gate="G$1" pin="1"/>
+<wire x1="629.92" y1="-35.56" x2="586.74" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="TP41" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="C18" gate="G$1" pin="+"/>
-<wire x1="-73.66" y1="76.2" x2="-116.84" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="TP41" gate="G$1" pin="1"/>
+<wire x1="312.42" y1="-86.36" x2="269.24" y2="-86.36" width="0.1524" layer="91"/>
+<pinref part="TP14" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="C18" gate="G$1" pin="-"/>
-<wire x1="-66.04" y1="76.2" x2="-27.94" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="TP51" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="-86.36" x2="358.14" y2="-86.36" width="0.1524" layer="91"/>
+<pinref part="TP21" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="V_IN_B" class="0">
+<segment>
+<pinref part="F2" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="27.94" x2="-81.28" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="20.32" x2="-81.28" y2="0" width="0.1524" layer="91"/>
+<pinref part="S1" gate="1" pin="O"/>
+<wire x1="-53.34" y1="20.32" x2="-81.28" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-81.28" y="20.32"/>
+<pinref part="S1" gate="B" pin="O"/>
+<wire x1="-81.28" y1="27.94" x2="-53.34" y2="27.94" width="0.1524" layer="91"/>
+<label x="-78.74" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="-20.32" y1="-10.16" x2="-20.32" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="V_IN_1" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="-20.32" y1="5.08" x2="-20.32" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="D1" gate="-B1" pin="A1"/>
+<wire x1="-5.08" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="D1" gate="-B1" pin="A2"/>
+<wire x1="0" y1="25.4" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="25.4" x2="-5.08" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="27.94" x2="-5.08" y2="35.56" width="0.1524" layer="91"/>
+<junction x="-5.08" y="27.94"/>
+<wire x1="-20.32" y1="27.94" x2="-5.08" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="S1" gate="B" pin="P"/>
+<pinref part="S1" gate="1" pin="P"/>
+<wire x1="-40.64" y1="30.48" x2="-43.18" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="22.86" x2="-40.64" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="30.48" x2="-40.64" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="27.94" x2="-40.64" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="27.94" x2="-40.64" y2="27.94" width="0.1524" layer="91"/>
+<junction x="-20.32" y="27.94"/>
+<junction x="-40.64" y="27.94"/>
+<label x="-33.02" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

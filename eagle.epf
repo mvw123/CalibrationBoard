@@ -373,10 +373,11 @@ UsedLibrary="/Applications/EAGLE-6.5.0/lbr/SparkFun-Eagle-Libraries-master/Spark
 UsedLibrary="/Applications/EAGLE-6.5.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-RF.lbr"
 UsedLibrary="/Applications/EAGLE-6.5.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Sensors.lbr"
 UsedLibrary="/Applications/EAGLE-6.5.0/lbr/Guvvy_Libs/TP_1MM_TH.lbr"
+UsedLibrary="/Applications/EAGLE-6.5.0/lbr/Guvvy_Libs/Switch_320-938_Corrected.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="91 23 1302 956"
+Loc="30 23 1241 956"
 State=2
 Number=0
 
