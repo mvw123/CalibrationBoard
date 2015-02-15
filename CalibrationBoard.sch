@@ -15495,7 +15495,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="TP_1MM_TH">
 <packages>
 <package name="TP_1MM_TH">
-<pad name="P$1" x="0" y="0" drill="0.9" diameter="1.4224"/>
+<pad name="P$1" x="0" y="0" drill="0.9" diameter="1.778"/>
 <circle x="0" y="0" radius="0.7" width="0" layer="30"/>
 </package>
 </packages>
@@ -21434,24 +21434,24 @@ distributor RS Components</description>
 </classes>
 <parts>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="0.1R">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
+<attribute name="MPN" value="ERJ6RSFR10V"/>
+<attribute name="OC_FARNELL" value="1717785"/>
 </part>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="1R">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="BOURNS"/>
+<attribute name="MPN" value="CR0805-FX-1R00ELF"/>
+<attribute name="OC_FARNELL" value="2333617"/>
 </part>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="100R">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="SUSUMU"/>
+<attribute name="MPN" value="RR1220P-101-B-T5"/>
+<attribute name="OC_FARNELL" value="1653279"/>
 </part>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="1k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
+<attribute name="MPN" value="ERA6AEB102V"/>
+<attribute name="OC_FARNELL" value="1577659"/>
 </part>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="5k">
 <attribute name="MF" value=""/>
@@ -21459,19 +21459,19 @@ distributor RS Components</description>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0805" value="100k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="SUSUMU"/>
+<attribute name="MPN" value="RR1220P-104-B-T5"/>
+<attribute name="OC_FARNELL" value="1653285"/>
 </part>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0805" value="1Meg">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="SUSUMU"/>
+<attribute name="MPN" value="RR1220P-105-B-T5"/>
+<attribute name="OC_FARNELL" value="1653287"/>
 </part>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="10R">
-<attribute name="MF" value="COILCRAFT"/>
-<attribute name="MPN" value="1008LS-393XJLB"/>
-<attribute name="OC_FARNELL" value="2286860"/>
+<attribute name="MF" value="BOURNS"/>
+<attribute name="MPN" value="CRT0805-BY-10R0ELF"/>
+<attribute name="OC_FARNELL" value="2008313"/>
 </part>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="10Meg">
 <attribute name="MF" value=""/>
@@ -21526,64 +21526,64 @@ distributor RS Components</description>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="10k">
+<attribute name="MF" value="SUSUMU"/>
+<attribute name="MPN" value="RR1220P-103-B-T5"/>
+<attribute name="OC_FARNELL" value="1653282"/>
+</part>
+<part name="J5" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN_RED">
+<attribute name="MF" value="HIRSCHMANN TEST AND MEASUREMENT"/>
+<attribute name="MPN" value="972354101"/>
+<attribute name="OC_FARNELL" value="1011402"/>
+</part>
+<part name="J6" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN_BLACK">
+<attribute name="MF" value="HIRSCHMANN TEST AND MEASUREMENT"/>
+<attribute name="MPN" value="972354101"/>
+<attribute name="OC_FARNELL" value="1011402"/>
+</part>
+<part name="BAT1" library="SparkFun-Connectors" deviceset="BC9VPC" device="" value="+9V_BATTERY_HOLDER">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="J5" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="J7" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN_RED">
+<attribute name="MF" value="HIRSCHMANN TEST AND MEASUREMENT"/>
+<attribute name="MPN" value="972354101"/>
+<attribute name="OC_FARNELL" value="1011402"/>
 </part>
-<part name="J6" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="BAT1" library="SparkFun-Connectors" deviceset="BC9VPC" device="" value="+9V_BATTERY">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="J7" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-</part>
-<part name="J8" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="J8" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN_BLACK">
+<attribute name="MF" value="HIRSCHMANN TEST AND MEASUREMENT"/>
+<attribute name="MPN" value="972354101"/>
+<attribute name="OC_FARNELL" value="1011402"/>
 </part>
 <part name="TP1" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP2" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP3" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP4" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
-<part name="J1" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN_RED">
+<attribute name="MF" value="HIRSCHMANN TEST AND MEASUREMENT"/>
+<attribute name="MPN" value="972354101"/>
+<attribute name="OC_FARNELL" value="1011402"/>
 </part>
-<part name="J2" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN_BLACK">
+<attribute name="MF" value="HIRSCHMANN TEST AND MEASUREMENT"/>
+<attribute name="MPN" value="972354101"/>
+<attribute name="OC_FARNELL" value="1011402"/>
 </part>
 <part name="U2" library="MAX6126AASA50+" deviceset="MAX6126AASA50+" device="" value="MAX6126AASA25+">
 <attribute name="MF" value="MAXIM INTEGRATED PRODUCTS"/>
@@ -21607,25 +21607,25 @@ distributor RS Components</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="J3" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN_RED">
+<attribute name="MF" value="HIRSCHMANN TEST AND MEASUREMENT"/>
+<attribute name="MPN" value="972354101"/>
+<attribute name="OC_FARNELL" value="1011402"/>
 </part>
-<part name="J9" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="J9" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN_BLACK">
+<attribute name="MF" value="HIRSCHMANN TEST AND MEASUREMENT"/>
+<attribute name="MPN" value="972354101"/>
+<attribute name="OC_FARNELL" value="1011402"/>
 </part>
 <part name="TP5" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP7" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="U3" library="MAX6126AASA50+" deviceset="MAX6126AASA50+" device="">
 <attribute name="MF" value=""/>
@@ -21649,96 +21649,96 @@ distributor RS Components</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="J4" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="BANANA_CONN" device="" value="BANANA_CONN_RED">
+<attribute name="MF" value="HIRSCHMANN TEST AND MEASUREMENT"/>
+<attribute name="MPN" value="972354101"/>
+<attribute name="OC_FARNELL" value="1011402"/>
 </part>
 <part name="TP6" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
-<part name="Q1" library="transistor-power" deviceset="IRF540" device="">
-<attribute name="MF" value="MULTICOMP"/>
-<attribute name="MPN" value="SR16150"/>
-<attribute name="OC_FARNELL" value="1625239"/>
+<part name="Q1" library="transistor-power" deviceset="IRF540" device="" value="IRF3708PBF">
+<attribute name="MF" value="INTERNATIONAL RECTIFIER"/>
+<attribute name="MPN" value="IRF3708PBF"/>
+<attribute name="OC_FARNELL" value="8648158"/>
 </part>
 <part name="TP22" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP33" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP23" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP26" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP28" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP29" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP31" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP34" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP35" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP36" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP37" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP38" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP39" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP30" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP27" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="PAD1" library="wirepad" deviceset="3,81/1,4" device="" value="MOUNT_HOLE">
@@ -21772,19 +21772,19 @@ distributor RS Components</description>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="TP24" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP25" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP32" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L">
 <attribute name="MF" value=""/>
@@ -21813,49 +21813,49 @@ distributor RS Components</description>
 <attribute name="OC_FARNELL" value="1345925"/>
 </part>
 <part name="TP8" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP15" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP18" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP20" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP19" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP16" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP17" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0805" value="10pF">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0805" value="47pF">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="08052U470FAT2A"/>
+<attribute name="OC_FARNELL" value="2332727"/>
 </part>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="1nF">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="1.2nF">
+<attribute name="MF" value="VISHAY VITRAMON"/>
+<attribute name="MPN" value="VJ0805A122FXBMT"/>
+<attribute name="OC_FARNELL" value="1650948"/>
 </part>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="10nF">
 <attribute name="MF" value=""/>
@@ -21863,9 +21863,9 @@ distributor RS Components</description>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="100nF">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="08055C104JAT2A"/>
+<attribute name="OC_FARNELL" value="1740673"/>
 </part>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="1uF">
 <attribute name="MF" value=""/>
@@ -21878,49 +21878,49 @@ distributor RS Components</description>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="TP45" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP46" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP47" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP48" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP49" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP40" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
-<part name="L5" library="rcl" deviceset="L-US" device="6000-XXX-RC" value="10mH">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="L5" library="rcl" deviceset="L-US" device="6000-XXX-RC" value="4.7mH">
+<attribute name="MF" value="WURTH ELEKTRONIK"/>
+<attribute name="MPN" value="7447721047"/>
+<attribute name="OC_FARNELL" value="2211696"/>
 </part>
 <part name="TP44" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="L3" library="rcl" deviceset="L-US" device="L1812" value="1uH">
 <attribute name="MF" value="COILCRAFT"/>
-<attribute name="MPN" value="0603AF-102XJRU"/>
-<attribute name="OC_FARNELL" value="2285913RL"/>
+<attribute name="MPN" value="1812PS-102JLC"/>
+<attribute name="OC_FARNELL" value="2287053"/>
 </part>
 <part name="L4" library="rcl" deviceset="L-US" device="L1812" value="100uH">
 <attribute name="MF" value="COILCRAFT"/>
@@ -21938,44 +21938,44 @@ distributor RS Components</description>
 <attribute name="OC_FARNELL" value="2333647"/>
 </part>
 <part name="TP9" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP10" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP11" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP12" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP13" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP41" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP42" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP43" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="C18" library="rcl" deviceset="CPOL-US" device="E5-10.5" value="100uF">
 <attribute name="MF" value=""/>
@@ -21983,24 +21983,24 @@ distributor RS Components</description>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="TP14" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="TP21" library="TP_1MM_TH" deviceset="TP_1MM_TH" device="&quot;">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="MF" value="MULTICOMP"/>
+<attribute name="MPN" value="TEST-3"/>
+<attribute name="OC_FARNELL" value="1702006"/>
 </part>
 <part name="S1" library="Switch_320-938_Corrected" deviceset="320-938" device="" value="5649A">
 <attribute name="MF" value="APEM"/>
 <attribute name="MPN" value="5649A"/>
 <attribute name="OC_FARNELL" value="1082316"/>
 </part>
-<part name="LED1" library="P-LCC-2_Shorter" deviceset="LED" device="P-LCC-2" value="GREEN_LED">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
+<part name="LED1" library="P-LCC-2_Shorter" deviceset="LED" device="P-LCC-2" value="RED_LED">
+<attribute name="MF" value="DIALIGHT"/>
+<attribute name="MPN" value="597-3121-207F"/>
+<attribute name="OC_FARNELL" value="1519491"/>
 </part>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="2k">
 <attribute name="MF" value=""/>
@@ -22013,22 +22013,22 @@ distributor RS Components</description>
 <sheet>
 <plain>
 <text x="467.36" y="-12.7" size="1.778" layer="91">0R</text>
-<text x="63.5" y="35.56" size="1.778" layer="91">MAX6126 needs to be a 4.0v or less due to max rating in the OUTF line</text>
+<text x="40.64" y="35.56" size="1.778" layer="91">Current measurement MAX6126 needs to be a 4.0v or less due to max rating in the OUTF line. This assumes Vgs(th) of &lt;= 2.0v. </text>
 <text x="17.78" y="2.54" size="1.778" layer="91">2.7V to 12.6V</text>
 <text x="60.96" y="27.94" size="1.778" layer="91">ABS MAX RATING: OUTF, OUTS, NR = -0.3V TO THE LESS OF (VIN + 0.3V) OR +6V</text>
 <text x="22.86" y="-78.74" size="1.778" layer="91">2.7V to 12.6V</text>
 <text x="66.04" y="-53.34" size="1.778" layer="91">ABS MAX RATING: OUTF, OUTS, NR = -0.3V TO THE LESS OF (VIN + 0.3V) OR +6V</text>
-<text x="22.86" y="-152.4" size="1.778" layer="91">2.7V to 12.6V</text>
+<text x="22.86" y="-152.4" size="1.778" layer="91">5.6V to 12.6V</text>
 <text x="66.04" y="-127" size="1.778" layer="91">ABS MAX RATING: OUTF, OUTS, NR = -0.3V TO THE LESS OF (VIN + 0.3V) OR +6V</text>
-<text x="223.52" y="-15.24" size="1.778" layer="91">&lt;- LOAD</text>
-<text x="223.52" y="27.94" size="1.778" layer="91">&lt;- CURRENT METER</text>
+<text x="233.68" y="-15.24" size="1.778" layer="91">&lt;- LOAD</text>
+<text x="233.68" y="27.94" size="1.778" layer="91">&lt;- CURRENT METER</text>
 <text x="-144.78" y="-55.88" size="1.778" layer="91">USE THE 9V BATTERY FOR LOW CURRENT REFERENCES. USE THE EXTERNAL PSU FOR HIGH CURRENT REFERENCES.</text>
-<text x="-55.88" y="53.34" size="5.08" layer="91">FIX THE CAPS AND INDUCTORS, CHECK THE SEPARATION OF THE TEST POINTS FOR THE TWEEZERS</text>
 <text x="99.06" y="-208.28" size="1.778" layer="91">NO CONNECT PINS IC, IC2</text>
 <text x="-7.62" y="38.1" size="1.778" layer="91">REVERSE
 VOLTAGE
 PROTECTION</text>
 <text x="-55.88" y="7.62" size="1.778" layer="91">ON/OFF/ON</text>
+<text x="-132.08" y="43.18" size="1.778" layer="91">5.6V to 12.6V</text>
 </plain>
 <instances>
 <instance part="R4" gate="G$1" x="421.64" y="-25.4">
@@ -22136,10 +22136,10 @@ PROTECTION</text>
 <attribute name="MF" x="215.9" y="25.4" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="215.9" y="25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="BAT1" gate="G$1" x="-81.28" y="-22.86">
-<attribute name="OC_FARNELL" x="-81.28" y="-22.86" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-81.28" y="-22.86" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-81.28" y="-22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="BAT1" gate="G$1" x="-81.28" y="-17.78">
+<attribute name="OC_FARNELL" x="-81.28" y="-17.78" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="-81.28" y="-17.78" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="-81.28" y="-17.78" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="J7" gate="G$1" x="215.9" y="0">
 <attribute name="OC_FARNELL" x="215.9" y="0" size="1.778" layer="96" rot="R90" display="off"/>
@@ -22210,10 +22210,10 @@ PROTECTION</text>
 <attribute name="MF" x="200.66" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="200.66" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="J9" gate="G$1" x="233.68" y="-60.96">
-<attribute name="OC_FARNELL" x="233.68" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="233.68" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="233.68" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="J9" gate="G$1" x="241.3" y="-68.58">
+<attribute name="OC_FARNELL" x="241.3" y="-68.58" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="241.3" y="-68.58" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="241.3" y="-68.58" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="TP5" gate="G$1" x="187.96" y="-66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="185.42" y="-63.5" size="1.778" layer="95" rot="R90"/>
@@ -22221,11 +22221,11 @@ PROTECTION</text>
 <attribute name="MF" x="187.96" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="187.96" y="-66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP7" gate="G$1" x="223.52" y="-60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="220.98" y="-58.42" size="1.778" layer="95" rot="R90"/>
-<attribute name="OC_FARNELL" x="223.52" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="223.52" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="223.52" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="TP7" gate="G$1" x="231.14" y="-68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="228.6" y="-66.04" size="1.778" layer="95" rot="R90"/>
+<attribute name="OC_FARNELL" x="231.14" y="-68.58" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="231.14" y="-68.58" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="231.14" y="-68.58" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U3" gate="A" x="111.76" y="-144.78">
 <attribute name="MF" x="111.76" y="-144.78" size="1.778" layer="96" rot="R90" display="off"/>
@@ -22258,7 +22258,7 @@ PROTECTION</text>
 <attribute name="MF" x="187.96" y="-139.7" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="187.96" y="-139.7" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="SUPPLY1" gate="GND" x="215.9" y="-129.54"/>
+<instance part="SUPPLY1" gate="GND" x="223.52" y="-137.16"/>
 <instance part="Q1" gate="G$1" x="182.88" y="17.78">
 <attribute name="OC_FARNELL" x="182.88" y="17.78" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="182.88" y="17.78" size="1.778" layer="96" rot="R90" display="off"/>
@@ -22341,35 +22341,35 @@ PROTECTION</text>
 <attribute name="MPN" x="462.28" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SUPPLY2" gate="GND" x="-81.28" y="-45.72"/>
-<instance part="PAD1" gate="1" x="233.68" y="-78.74" rot="R180">
-<attribute name="OC_FARNELL" x="233.68" y="-78.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="233.68" y="-78.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="233.68" y="-78.74" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="PAD1" gate="1" x="241.3" y="-86.36" rot="R180">
+<attribute name="OC_FARNELL" x="241.3" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="241.3" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="241.3" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="PAD2" gate="1" x="233.68" y="-86.36" rot="R180">
-<attribute name="OC_FARNELL" x="233.68" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="233.68" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="233.68" y="-86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="PAD2" gate="1" x="241.3" y="-93.98" rot="R180">
+<attribute name="OC_FARNELL" x="241.3" y="-93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="241.3" y="-93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="241.3" y="-93.98" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="PAD3" gate="1" x="233.68" y="-93.98" rot="R180">
-<attribute name="OC_FARNELL" x="233.68" y="-93.98" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="233.68" y="-93.98" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="233.68" y="-93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="PAD3" gate="1" x="241.3" y="-101.6" rot="R180">
+<attribute name="OC_FARNELL" x="241.3" y="-101.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="241.3" y="-101.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="241.3" y="-101.6" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="PAD4" gate="1" x="233.68" y="-101.6" rot="R180">
-<attribute name="OC_FARNELL" x="233.68" y="-101.6" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="233.68" y="-101.6" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="233.68" y="-101.6" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="PAD4" gate="1" x="241.3" y="-109.22" rot="R180">
+<attribute name="OC_FARNELL" x="241.3" y="-109.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="241.3" y="-109.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="241.3" y="-109.22" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="PAD5" gate="1" x="233.68" y="-109.22" rot="R180">
-<attribute name="OC_FARNELL" x="233.68" y="-109.22" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="233.68" y="-109.22" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="233.68" y="-109.22" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="PAD5" gate="1" x="241.3" y="-116.84" rot="R180">
+<attribute name="OC_FARNELL" x="241.3" y="-116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="241.3" y="-116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="241.3" y="-116.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="PAD6" gate="1" x="233.68" y="-116.84" rot="R180">
-<attribute name="OC_FARNELL" x="233.68" y="-116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="233.68" y="-116.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="233.68" y="-116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="PAD6" gate="1" x="241.3" y="-124.46" rot="R180">
+<attribute name="OC_FARNELL" x="241.3" y="-124.46" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="241.3" y="-124.46" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="241.3" y="-124.46" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="TP24" gate="G$1" x="452.12" y="-45.72" rot="R90">
 <attribute name="OC_FARNELL" x="452.12" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
@@ -22391,22 +22391,22 @@ PROTECTION</text>
 <attribute name="MF" x="106.68" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="106.68" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="KK1" gate="G$1" x="205.74" y="15.24">
-<attribute name="OC_FARNELL" x="205.74" y="15.24" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="205.74" y="15.24" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="205.74" y="15.24" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="KK1" gate="G$1" x="210.82" y="15.24">
+<attribute name="OC_FARNELL" x="210.82" y="15.24" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="210.82" y="15.24" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="210.82" y="15.24" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="SUPPLY3" gate="GND" x="205.74" y="5.08"/>
+<instance part="SUPPLY3" gate="GND" x="210.82" y="5.08"/>
 <instance part="D1" gate="-B1" x="0" y="30.48" rot="R270">
 <attribute name="OC_FARNELL" x="0" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="0" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="0" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="F1" gate="G$1" x="-101.6" y="33.02"/>
-<instance part="F2" gate="G$1" x="-78.74" y="-5.08" rot="R90">
-<attribute name="OC_FARNELL" x="-78.74" y="-5.08" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="-78.74" y="-5.08" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="-78.74" y="-5.08" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="F1" gate="G$1" x="-93.98" y="33.02"/>
+<instance part="F2" gate="G$1" x="-78.74" y="5.08" rot="R90">
+<attribute name="OC_FARNELL" x="-78.74" y="5.08" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="-78.74" y="5.08" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="-78.74" y="5.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="TP8" gate="G$1" x="269.24" y="-25.4" rot="R90">
 <attribute name="OC_FARNELL" x="269.24" y="-25.4" size="1.778" layer="96" rot="R90" display="off"/>
@@ -22708,7 +22708,7 @@ PROTECTION</text>
 <wire x1="147.32" y1="-170.18" x2="147.32" y2="-182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-81.28" y1="-33.02" x2="-81.28" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="-27.94" x2="-81.28" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="BAT1" gate="G$1" pin="V-"/>
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="-81.28" y1="-38.1" x2="-81.28" y2="-43.18" width="0.1524" layer="91"/>
@@ -22719,46 +22719,46 @@ PROTECTION</text>
 </segment>
 <segment>
 <pinref part="J9" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="-60.96" x2="223.52" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-68.58" x2="231.14" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="PAD1" gate="1" pin="P"/>
-<wire x1="223.52" y1="-60.96" x2="215.9" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="-78.74" x2="215.9" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-78.74" x2="215.9" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="-68.58" x2="223.52" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-86.36" x2="223.52" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-86.36" x2="223.52" y2="-93.98" width="0.1524" layer="91"/>
 <pinref part="PAD6" gate="1" pin="P"/>
-<wire x1="215.9" y1="-86.36" x2="215.9" y2="-93.98" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-93.98" x2="215.9" y2="-101.6" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-101.6" x2="215.9" y2="-109.22" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-109.22" x2="215.9" y2="-116.84" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-116.84" x2="231.14" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-93.98" x2="223.52" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-101.6" x2="223.52" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-109.22" x2="223.52" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-116.84" x2="223.52" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-124.46" x2="238.76" y2="-124.46" width="0.1524" layer="91"/>
 <pinref part="PAD5" gate="1" pin="P"/>
-<wire x1="231.14" y1="-109.22" x2="215.9" y2="-109.22" width="0.1524" layer="91"/>
-<junction x="215.9" y="-109.22"/>
+<wire x1="238.76" y1="-116.84" x2="223.52" y2="-116.84" width="0.1524" layer="91"/>
+<junction x="223.52" y="-116.84"/>
 <pinref part="PAD4" gate="1" pin="P"/>
-<wire x1="231.14" y1="-101.6" x2="215.9" y2="-101.6" width="0.1524" layer="91"/>
-<junction x="215.9" y="-101.6"/>
+<wire x1="238.76" y1="-109.22" x2="223.52" y2="-109.22" width="0.1524" layer="91"/>
+<junction x="223.52" y="-109.22"/>
 <pinref part="PAD3" gate="1" pin="P"/>
-<wire x1="231.14" y1="-93.98" x2="215.9" y2="-93.98" width="0.1524" layer="91"/>
-<junction x="215.9" y="-93.98"/>
+<wire x1="238.76" y1="-101.6" x2="223.52" y2="-101.6" width="0.1524" layer="91"/>
+<junction x="223.52" y="-101.6"/>
 <pinref part="PAD2" gate="1" pin="P"/>
-<wire x1="231.14" y1="-86.36" x2="215.9" y2="-86.36" width="0.1524" layer="91"/>
-<junction x="215.9" y="-86.36"/>
-<wire x1="215.9" y1="-60.96" x2="215.9" y2="-78.74" width="0.1524" layer="91"/>
-<junction x="215.9" y="-78.74"/>
+<wire x1="238.76" y1="-93.98" x2="223.52" y2="-93.98" width="0.1524" layer="91"/>
+<junction x="223.52" y="-93.98"/>
+<wire x1="223.52" y1="-68.58" x2="223.52" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="223.52" y="-86.36"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
-<wire x1="215.9" y1="-127" x2="215.9" y2="-116.84" width="0.1524" layer="91"/>
-<junction x="215.9" y="-116.84"/>
+<wire x1="223.52" y1="-134.62" x2="223.52" y2="-124.46" width="0.1524" layer="91"/>
+<junction x="223.52" y="-124.46"/>
 <pinref part="TP7" gate="G$1" pin="1"/>
-<junction x="223.52" y="-60.96"/>
+<junction x="231.14" y="-68.58"/>
 </segment>
 <segment>
 <pinref part="KK1" gate="G$1" pin="K@1"/>
-<wire x1="200.66" y1="12.7" x2="200.66" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="12.7" x2="205.74" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="KK1" gate="G$1" pin="K@2"/>
-<wire x1="200.66" y1="7.62" x2="205.74" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="7.62" x2="210.82" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="7.62" x2="210.82" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="7.62" x2="215.9" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="7.62" x2="215.9" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
-<junction x="205.74" y="7.62"/>
+<junction x="210.82" y="7.62"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
@@ -23100,14 +23100,14 @@ PROTECTION</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="-121.92" y1="33.02" x2="-106.68" y2="33.02" width="0.1524" layer="91"/>
-<label x="-114.3" y="33.02" size="1.778" layer="95"/>
+<wire x1="-121.92" y1="33.02" x2="-99.06" y2="33.02" width="0.1524" layer="91"/>
+<label x="-116.84" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="V_IN_A" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="-96.52" y1="33.02" x2="-63.5" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="33.02" x2="-63.5" y2="33.02" width="0.1524" layer="91"/>
 <label x="-78.74" y="33.02" size="1.778" layer="95"/>
 <wire x1="-63.5" y1="25.4" x2="-63.5" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="S"/>
@@ -23120,7 +23120,7 @@ PROTECTION</text>
 <net name="N$9" class="0">
 <segment>
 <pinref part="BAT1" gate="G$1" pin="V+"/>
-<wire x1="-81.28" y1="-15.24" x2="-81.28" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="-10.16" x2="-81.28" y2="0" width="0.1524" layer="91"/>
 <pinref part="F2" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -23297,7 +23297,7 @@ PROTECTION</text>
 <segment>
 <pinref part="F2" gate="G$1" pin="2"/>
 <wire x1="-81.28" y1="27.94" x2="-81.28" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="20.32" x2="-81.28" y2="0" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="20.32" x2="-81.28" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="O"/>
 <wire x1="-53.34" y1="20.32" x2="-81.28" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-81.28" y="20.32"/>
