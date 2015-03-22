@@ -4,6 +4,12 @@ CalibrationBoard
 Reference board for calibration of Voltage, current, resistance Capacitance and Inductance
 The design is created in Eagle CAD v 6.5.0 (free version) and uses the standard PCB board size.
 
+
+CAD B - [WIP]
+====================================
+Work in progress
+
+
 CAD A - [WIP]
 ====================================
 
@@ -12,6 +18,8 @@ Some issues have been noted with the PCB. See issues list in github.
 
 Basic tests indicate the board works, but needs a CAD B to correct some PCB issues. 
 
+Specification: 
+==============
 Voltage reference -> 2.5V and 5.0V < 10mA load
 Current Reference -> Configurable up to 10A max
 Resistance references -> Various tight tolerance resistors <=1 ohm = 1%, >1 ohm = 0.1%
